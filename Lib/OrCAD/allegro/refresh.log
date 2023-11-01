@@ -1,0 +1,97 @@
+Thu Jun  8 21:26:14 2023				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Thu Jun  8 21:26:14 2023
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : private.brd                                   )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Thu Jun  8 21:26:15 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Thu Jun  8 21:26:15 2023				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'F:/CADENCE_LEARN/LIB/ORCAD/allegro/private.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'YES'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'YES'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'YES'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Tutorial_Files/tutorial_database/SITE/pcb/symbols 
+           d:/cadence/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           d:/cadence/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+           F:/Cadence_learn/Lib/Package 
+
+PADPATH =  . 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Tutorial_Files/tutorial_database/SITE/pcb/padstacks 
+           d:/cadence/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           d:/cadence/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+           F:/Cadence_learn/Lib/Package 
+
+
+------ Symbol Refresh Messages ------
+
+'RESC3216X65N'  symbol refreshed successfully.
+'RESC2013X65N'  symbol refreshed successfully.
+'RESC1608X55N'  symbol refreshed successfully.
+'RESC1005X40N'  symbol refreshed successfully.
+'CAPC3216X140N'  symbol refreshed successfully.
+'CAPC2012X140N'  symbol refreshed successfully.
+'CAPC1608X100N'  symbol refreshed successfully.
+'CAPC1005X70N'  symbol refreshed successfully.
+
+
+------ Pad Stack Refresh Messages ------
+
+'R127_190R15M147_210'  pad stack refreshed successfully.
+'R117_185R12M137_205'  pad stack refreshed successfully.
+'R59_62R6M79_82'  pad stack refreshed successfully.
+'R107_150R12M127_170'  pad stack refreshed successfully.
+'R105_110R12M125_130'  pad stack refreshed successfully.
+'R92_105R12M112_125'  pad stack refreshed successfully.
+'R65_66R6M85_86'  pad stack refreshed successfully.
+'R120_150R12M140_170'  pad stack refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 8 out 8
+    Design updated.
+

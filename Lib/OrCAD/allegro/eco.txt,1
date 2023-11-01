@@ -1,0 +1,93 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  F:/Cadence_learn/Lib/OrCAD/allegro/private.brd                              |
+|                                                    Mon Jun  5 22:19:50 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this new net
+                                 C1.2           C2.2           C3.2           
+                                 C4.2           C5.2           R2.2           
+                                 R3.2           R4.2           R5.2           
+                                 R6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC_BAR      pins ADDED TO this new net
+                                 C1.1           C2.1           C3.1           
+                                 C4.1           C5.1           R2.1           
+                                 R3.1           R4.1           R5.1           
+                                 R6.1           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  F:/Cadence_learn/Lib/OrCAD/allegro/private.brd                              |
+|                                                    Mon Jun  5 22:19:50 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAP_4.7UF_16V_X5R_0603_CAPC1608X100N_4.7UF,16V
+ CAP_10UF_25V_X5R_0805_CAPC2012X140N_10UF,25V
+ CAP_22UF_25V_X5R_1206_CAPC3216X140N_22UF,25V
+ CAP_100NF_25V_X5R_0402_CAPC1005X70N_100NF,25V
+ CAP_100NF_50V_X5R_0603_CAPC1608X100N_100NF,50V
+ RES_0R_5%_0402_RESC1005X40N_0R,5%
+ RES_0R_5%_0603_RESC1608X55N_0R,5%
+ RES_0R_5%_0805_RESC2013X65N_0R,5%
+ RES_0R_5%_1206_RESC3216X65N_0R,5%
+ RES_R_5%_0402_RESC1005X40N_R,5%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  F:/Cadence_learn/Lib/OrCAD/allegro/private.brd                              |
+|                                                    Mon Jun  5 22:19:50 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP_100NF_25V_X5R_0402_CAPC1005X70N_100NF,25V 
+ C2                  CAP_100NF_50V_X5R_0603_CAPC1608X100N_100NF,50V 
+ C3                  CAP_10UF_25V_X5R_0805_CAPC2012X140N_10UF,25V 
+ C4                  CAP_22UF_25V_X5R_1206_CAPC3216X140N_22UF,25V 
+ C5                  CAP_4.7UF_16V_X5R_0603_CAPC1608X100N_4.7UF,16V 
+ R2                  RES_R_5%_0402_RESC1005X40N_R,5% 
+ R3                  RES_0R_5%_0402_RESC1005X40N_0R,5% 
+ R4                  RES_0R_5%_0603_RESC1608X55N_0R,5% 
+ R5                  RES_0R_5%_0805_RESC2013X65N_0R,5% 
+ R6                  RES_0R_5%_1206_RESC3216X65N_0R,5% 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  F:/Cadence_learn/Lib/OrCAD/allegro/private.brd                              |
+|                                                    Mon Jun  5 22:19:50 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      20                                        |
+|       Comp definitions added:      10                                        |
+|       Components added      :      10                                        |
+|       Slot property added   :      10                                        |
+|                                                                              |
+|   Total ECO changes reported:      50                                        |
+|------------------------------------------------------------------------------|

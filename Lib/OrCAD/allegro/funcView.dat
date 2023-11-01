@@ -1,0 +1,12 @@
+A!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!REFDES!FUNC_PRIM_FILE!COMP_PARENT_PPT!COMP_PARENT_PPT_PART!COMP_PARENT_PART_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!FUNC_GROUP!FUNC_ROOM!FUNC_CDS_FSP_UID!FUNC_NO_SWAP_PIN!FUNC_HARD_LOCATION!FUNC_NO_SWAP_GATE_EXT!FUNC_CDS_FSP_MAPPED_CELL!FUNC_CDS_FSP_FPGA_SYMBOL!FUNC_CDS_FSP_TERM_TYPE!FUNC_CDS_FSP_TERM_NAME!FUNC_ROOM!FUNC_GROUP!FUNC_CDS_FSP_TERM_INDEX!FUNC_CDS_FSP_INSTANCE_ID!FUNC_NO_SWAP_GATE!FUNC_NO_XNET_CONNECTION!FUNC_CDS_FSP_IS_FPGA!
+J!F:/CADENCE_LEARN/LIB/ORCAD/allegro/private.brd!Thu Jun  8 20:46:02 2023!0.00!0.00!21000.00!17000.00!0.01!mils!PRIVATE!10.400000 mil!2!UP TO DATE!
+S!@private.schematic1(sch_1):ins145@private.\cap_100nf_25v_x5r_0402.normal\(chips)!CAP_100NF_25V_X5R_0402_CAPC1005X70N_100NF,25V!C1!.\chipsView.dat!!!!!!F9!!!!!!!!!!!!!!!!!!
+S!@private.schematic1(sch_1):ins170@private.\cap_100nf_50v_x5r_0603.normal\(chips)!CAP_100NF_50V_X5R_0603_CAPC1608X100N_100NF,50V!C2!.\chipsView.dat!!!!!!F8!!!!!!!!!!!!!!!!!!
+S!@private.schematic1(sch_1):ins195@private.\cap_10uf_25v_x5r_0805.normal\(chips)!CAP_10UF_25V_X5R_0805_CAPC2012X140N_10UF,25V!C3!.\chipsView.dat!!!!!!F7!!!!!!!!!!!!!!!!!!
+S!@private.schematic1(sch_1):ins220@private.\cap_22uf_25v_x5r_1206.normal\(chips)!CAP_22UF_25V_X5R_1206_CAPC3216X140N_22UF,25V!C4!.\chipsView.dat!!!!!!F6!!!!!!!!!!!!!!!!!!
+S!@private.schematic1(sch_1):ins245@private.\cap_4.7uf_16v_x5r_0603.normal\(chips)!CAP_4.7UF_16V_X5R_0603_CAPC1608X100N_4.7UF,16V!C5!.\chipsView.dat!!!!!!F5!!!!!!!!!!!!!!!!!!
+S!@private.schematic1(sch_1):ins120@private.\res_r_5%_0402.normal\(chips)!RES_R_5%_0402_RESC1005X40N_R,5%!R2!.\chipsView.dat!!!!!!F4!!!!!!!!!!!!!!!!!!
+S!@private.schematic1(sch_1):ins270@private.\res_0r_5%_0402.normal\(chips)!RES_0R_5%_0402_RESC1005X40N_0R,5%!R3!.\chipsView.dat!!!!!!F3!!!!!!!!!!!!!!!!!!
+S!@private.schematic1(sch_1):ins295@private.\res_0r_5%_0603.normal\(chips)!RES_0R_5%_0603_RESC1608X55N_0R,5%!R4!.\chipsView.dat!!!!!!F2!!!!!!!!!!!!!!!!!!
+S!@private.schematic1(sch_1):ins320@private.\res_0r_5%_0805.normal\(chips)!RES_0R_5%_0805_RESC2013X65N_0R,5%!R5!.\chipsView.dat!!!!!!F1!!!!!!!!!!!!!!!!!!
+S!@private.schematic1(sch_1):ins345@private.\res_0r_5%_1206.normal\(chips)!RES_0R_5%_1206_RESC3216X65N_0R,5%!R6!.\chipsView.dat!!!!!!F0!!!!!!!!!!!!!!!!!!

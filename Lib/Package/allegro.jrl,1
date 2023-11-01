@@ -1,0 +1,21 @@
+\t (00:00:02) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Tue Jul  4 23:16:11 2023
+\t (00:00:02)         Host=HEROZHOU User=59427 Pid=1584 CPUs=12
+\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\Lib\Package\capc1005x70n.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged capc1005x70n
+\d (00:00:04) Design opened: F:/Cadence_learn/Lib/Package/capc1005x70n.dra
+\i (00:00:05) trapsize 156
+\i (00:00:05) trapsize 162
+\i (00:00:05) trapsize 156
+\i (00:00:05) trapsize 157
+\i (00:00:06) generaledit 
+\i (00:00:10) 3d 
+\i (00:00:11) generaledit 
+\i (00:00:21) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:00:26) exit 
+\e (00:00:26) Do you want to save the changes you made to capc1005x70n.dra?
+\i (00:00:27) fillin no 
+\t (00:00:29)     Journal end - Tue Jul  4 23:16:38 2023

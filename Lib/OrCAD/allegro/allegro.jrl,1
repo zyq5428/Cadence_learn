@@ -1,0 +1,29 @@
+\t (00:00:06) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Tue Jun  6 23:30:52 2023
+\t (00:00:06)         Host=HEROZHOU User=59427 Pid=18460 CPUs=12
+\t (00:00:06) CmdLine= D:\Cadence\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:06) 
+   (00:00:06) Loading axlcore.cxt 
+\t (00:00:07) Starting new design...
+\i (00:00:09) trapsize 116667
+\i (00:00:10) generaledit 
+\i (00:00:28) enved 
+\i (00:00:29) setwindow form.prfedit
+\i (00:00:29) FORM prfedit treelist  My_favorites 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) generaledit 
+\i (00:00:31) setwindow form.prfedit
+\i (00:00:31) FORM prfedit treelist  Paths 
+\i (00:00:34) FORM prfedit treelist  Library Paths 
+\i (00:00:36) FORM prfedit padpath  
+\i (00:00:56) FORM prfedit parampath  
+\i (00:01:03) FORM prfedit psmpath  
+\i (00:01:50) FORM prfedit treelist  UI 
+\i (00:01:55) FORM prfedit treelist  Padstack_editor UI 
+\i (00:02:21) FORM prfedit padstack_nowarning_display YES 
+\i (00:02:24) FORM prfedit padstack_nowarning_drill YES 
+\i (00:03:08) FORM prfedit apply  
+\i (00:03:09) FORM prfedit done  
+\i (00:13:57) setwindow pcb
+\i (00:13:57) exit 
+\t (00:13:59)     Journal end - Tue Jun  6 23:44:45 2023

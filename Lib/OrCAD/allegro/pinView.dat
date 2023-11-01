@@ -1,0 +1,22 @@
+A!NET_NAME!REFDES!PIN_NUMBER!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!PIN_NET_SHORT!PIN_NO_SWAP_PIN!PIN_NO_PIN_ESCAPE!PIN_CDS_PINID!PIN_XNET_PINS!PIN_PIN_ESCAPE!PIN_PIN_SIGNAL_MODEL!PIN_NO_DRC!PIN_NO_SHAPE_CONNECT!
+J!F:/CADENCE_LEARN/LIB/ORCAD/allegro/private.brd!Thu Jun  8 20:46:02 2023!0.00!0.00!21000.00!17000.00!0.01!mils!PRIVATE!10.400000 mil!2!UP TO DATE!
+S!VCC_BAR!C1!1!@private.schematic1(sch_1):ins145@private.\cap_100nf_25v_x5r_0402.normal\(chips)!CAP_100NF_25V_X5R_0402_CAPC1005X70N_100NF,25V!!!F9!!!!!!!!!!
+S!GND!C1!2!@private.schematic1(sch_1):ins145@private.\cap_100nf_25v_x5r_0402.normal\(chips)!CAP_100NF_25V_X5R_0402_CAPC1005X70N_100NF,25V!!!F9!!!!!!!!!!
+S!VCC_BAR!C2!1!@private.schematic1(sch_1):ins170@private.\cap_100nf_50v_x5r_0603.normal\(chips)!CAP_100NF_50V_X5R_0603_CAPC1608X100N_100NF,50V!!!F8!!!!!!!!!!
+S!GND!C2!2!@private.schematic1(sch_1):ins170@private.\cap_100nf_50v_x5r_0603.normal\(chips)!CAP_100NF_50V_X5R_0603_CAPC1608X100N_100NF,50V!!!F8!!!!!!!!!!
+S!VCC_BAR!C3!1!@private.schematic1(sch_1):ins195@private.\cap_10uf_25v_x5r_0805.normal\(chips)!CAP_10UF_25V_X5R_0805_CAPC2012X140N_10UF,25V!!!F7!!!!!!!!!!
+S!GND!C3!2!@private.schematic1(sch_1):ins195@private.\cap_10uf_25v_x5r_0805.normal\(chips)!CAP_10UF_25V_X5R_0805_CAPC2012X140N_10UF,25V!!!F7!!!!!!!!!!
+S!VCC_BAR!C4!1!@private.schematic1(sch_1):ins220@private.\cap_22uf_25v_x5r_1206.normal\(chips)!CAP_22UF_25V_X5R_1206_CAPC3216X140N_22UF,25V!!!F6!!!!!!!!!!
+S!GND!C4!2!@private.schematic1(sch_1):ins220@private.\cap_22uf_25v_x5r_1206.normal\(chips)!CAP_22UF_25V_X5R_1206_CAPC3216X140N_22UF,25V!!!F6!!!!!!!!!!
+S!VCC_BAR!C5!1!@private.schematic1(sch_1):ins245@private.\cap_4.7uf_16v_x5r_0603.normal\(chips)!CAP_4.7UF_16V_X5R_0603_CAPC1608X100N_4.7UF,16V!!!F5!!!!!!!!!!
+S!GND!C5!2!@private.schematic1(sch_1):ins245@private.\cap_4.7uf_16v_x5r_0603.normal\(chips)!CAP_4.7UF_16V_X5R_0603_CAPC1608X100N_4.7UF,16V!!!F5!!!!!!!!!!
+S!VCC_BAR!R2!1!@private.schematic1(sch_1):ins120@private.\res_r_5%_0402.normal\(chips)!RES_R_5%_0402_RESC1005X40N_R,5%!!!F4!!!!!!!!!!
+S!GND!R2!2!@private.schematic1(sch_1):ins120@private.\res_r_5%_0402.normal\(chips)!RES_R_5%_0402_RESC1005X40N_R,5%!!!F4!!!!!!!!!!
+S!VCC_BAR!R3!1!@private.schematic1(sch_1):ins270@private.\res_0r_5%_0402.normal\(chips)!RES_0R_5%_0402_RESC1005X40N_0R,5%!!!F3!!!!!!!!!!
+S!GND!R3!2!@private.schematic1(sch_1):ins270@private.\res_0r_5%_0402.normal\(chips)!RES_0R_5%_0402_RESC1005X40N_0R,5%!!!F3!!!!!!!!!!
+S!VCC_BAR!R4!1!@private.schematic1(sch_1):ins295@private.\res_0r_5%_0603.normal\(chips)!RES_0R_5%_0603_RESC1608X55N_0R,5%!!!F2!!!!!!!!!!
+S!GND!R4!2!@private.schematic1(sch_1):ins295@private.\res_0r_5%_0603.normal\(chips)!RES_0R_5%_0603_RESC1608X55N_0R,5%!!!F2!!!!!!!!!!
+S!VCC_BAR!R5!1!@private.schematic1(sch_1):ins320@private.\res_0r_5%_0805.normal\(chips)!RES_0R_5%_0805_RESC2013X65N_0R,5%!!!F1!!!!!!!!!!
+S!GND!R5!2!@private.schematic1(sch_1):ins320@private.\res_0r_5%_0805.normal\(chips)!RES_0R_5%_0805_RESC2013X65N_0R,5%!!!F1!!!!!!!!!!
+S!VCC_BAR!R6!1!@private.schematic1(sch_1):ins345@private.\res_0r_5%_1206.normal\(chips)!RES_0R_5%_1206_RESC3216X65N_0R,5%!!!F0!!!!!!!!!!
+S!GND!R6!2!@private.schematic1(sch_1):ins345@private.\res_0r_5%_1206.normal\(chips)!RES_0R_5%_1206_RESC3216X65N_0R,5%!!!F0!!!!!!!!!!

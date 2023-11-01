@@ -1,0 +1,29 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : private.brd                                   )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Thu Jun  8 20:52:09 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  C1 / CAP_100NF_25V_X5R_0402_CAPC1005X70N_100NF,25V / CAPC1005X70N at (-98.7768 100.7632)
+         Placed symbol:  C2 / CAP_100NF_50V_X5R_0603_CAPC1608X100N_100NF,50V / CAPC1608X100N at (-96.0286 101.1032)
+         Placed symbol:  C3 / CAP_10UF_25V_X5R_0805_CAPC2012X140N_10UF,25V / CAPC2012X140N at (-92.5754 101.3032)
+         Placed symbol:  C4 / CAP_22UF_25V_X5R_1206_CAPC3216X140N_22UF,25V / CAPC3216X140N at (-88.3222 101.5032)
+         Placed symbol:  C5 / CAP_4.7UF_16V_X5R_0603_CAPC1608X100N_4.7UF,16V / CAPC1608X100N at (-84.2690 101.1032)
+         Placed symbol:  R2 / RES_R_5%_0402_RESC1005X40N_R,5% / RESC1005X40N at (-81.5108 100.7832)
+         Placed symbol:  R3 / RES_0R_5%_0402_RESC1005X40N_0R,5% / RESC1005X40N at (-79.2476 100.7832)
+         Placed symbol:  R4 / RES_0R_5%_0603_RESC1608X55N_0R,5% / RESC1608X55N at (-76.4894 101.0782)
+         Placed symbol:  R5 / RES_0R_5%_0805_RESC2013X65N_0R,5% / RESC2013X65N at (-73.0362 101.3032)
+         Placed symbol:  R6 / RES_0R_5%_1206_RESC3216X65N_0R,5% / RESC3216X65N at (-68.7830 101.4782)
+
+
+Placed 10 of 10 applicable (10 total) symbols.
+
+-----------------------------------------------------------------------
+

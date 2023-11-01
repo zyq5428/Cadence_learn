@@ -1,0 +1,9 @@
+\t (00:00:01) padstack_editor 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Sun Jun  4 18:38:43 2023
+\t (00:00:01)         Host=HEROZHOU User=59427 Pid=21968 CPUs=12
+\t (00:00:01) CmdLine= padstack_editor -mpssession 59427 -file C:/Users/59427/AppData/Local/Temp/#Taaaaad22112.tmp -pname R117_185R12 -data C:/Users/59427/AppData/Local/Temp/#Taaaaag22112.tmp
+\t (00:00:01) 
+\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:01:53) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:01:53) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\t (00:01:55)     Journal end - Sun Jun  4 18:40:38 2023

@@ -1,0 +1,33 @@
+\t (00:00:01) padstack_editor 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Sun Jun  4 18:36:38 2023
+\t (00:00:01)         Host=HEROZHOU User=59427 Pid=21036 CPUs=12
+\t (00:00:01) CmdLine= padstack_editor -mpssession 59427 -file C:/Users/59427/AppData/Local/Temp/#Taaaaad21920.tmp -pname R60_66R6 -data C:/Users/59427/AppData/Local/Temp/#Taaaaag21920.tmp
+\t (00:00:01) 
+\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:16) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:16) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:17) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 0 Pad
+\d (00:00:17) QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad 0 1
+\d (00:00:18) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:18) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:27) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 0 Pad 1 Pad 2 Pad 3 +
+\d (00:00:27) QtSignal Pad 4 Pad 5 Pad 6 Pad 7 Pad
+\d (00:00:28) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:28) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:28) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 0 Pad
+\d (00:00:29) QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad 0 1
+\d (00:00:29) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:29) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:36) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 0 Pad
+\d (00:00:36) QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad 0 1
+\d (00:00:37) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:37) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:43) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 0 Pad
+\d (00:00:43) QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad 0 1
+\d (00:00:44) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:44) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:45) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 0 Pad
+\d (00:00:45) QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad 0 1
+\d (00:00:48) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:52) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\t (00:00:55)     Journal end - Sun Jun  4 18:37:33 2023

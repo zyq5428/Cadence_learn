@@ -1,0 +1,33 @@
+\t (00:00:02) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Mon Jul 17 23:27:55 2023
+\t (00:00:02)         Host=HEROZHOU User=59427 Pid=14904 CPUs=12
+\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\FPX\Footprint\SOT23-5.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "SOT23-5"
+\d (00:00:02) Design opened: F:/Cadence_learn/FPX/Footprint/SOT23-5.dra
+\i (00:00:02) trapsize 195
+\i (00:00:02) trapsize 203
+\i (00:00:03) trapsize 195
+\i (00:00:03) trapsize 199
+\i (00:00:03) generaledit 
+\i (00:00:07) 3d 
+\i (00:00:08) generaledit 
+\i (00:00:14) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 685 56 1765 378 1 1 0 +
+\i (00:00:14) QtSignal "85.6003" "162.38" "137.839"
+\i (00:00:14) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 685 56 1765 378 1 0 +
+\i (00:00:14) QtSignal 0 "85.6003" "162.38" "137.839"
+\i (00:00:16) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
+\i (00:00:17) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 50 536870912 false 1 2
+\i (00:00:19) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 53 536870912 false 1 5
+\i (00:00:21) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 52 536870912 false 1 4
+\i (00:00:24) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 54 536870912 false 1 6
+\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 54 536870912 false 1 6
+\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 52 536870912 false 1 4
+\i (00:00:26) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 52 536870912 false 1 4
+\i (00:00:28) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:00:30) exit 
+\e (00:00:30) Do you want to save the changes you made to SOT23-5.dra?
+\i (00:00:31) fillin no 
+\t (00:00:33)     Journal end - Mon Jul 17 23:28:26 2023

@@ -1,0 +1,110 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.4.0 d001Jun-08-2023 at 20:46:23 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='PRIVATE';
+ POST_TIME='Jan 14 2023 14:52:27';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP_100NF_25V_X5R_0402_CAPC1005X70N_100NF,25V':;
+
+SECTION_NUMBER 1
+ '@PRIVATE.SCHEMATIC1(SCH_1):INS145@PRIVATE.CAP_100NF_25V_X5R_0402.NORMAL(CHIPS)':
+ C_PATH='@private.schematic1(sch_1):ins145@private.\cap_100nf_25v_x5r_0402.normal\(chips)',
+ P_PATH='@private.schematic1(sch_1):page1_ins145@private.\cap_100nf_25v_x5r_0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP_100NF_50V_X5R_0603_CAPC1608X100N_100NF,50V':;
+
+SECTION_NUMBER 1
+ '@PRIVATE.SCHEMATIC1(SCH_1):INS170@PRIVATE.CAP_100NF_50V_X5R_0603.NORMAL(CHIPS)':
+ C_PATH='@private.schematic1(sch_1):ins170@private.\cap_100nf_50v_x5r_0603.normal\(chips)',
+ P_PATH='@private.schematic1(sch_1):page1_ins170@private.\cap_100nf_50v_x5r_0603.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP_10UF_25V_X5R_0805_CAPC2012X140N_10UF,25V':;
+
+SECTION_NUMBER 1
+ '@PRIVATE.SCHEMATIC1(SCH_1):INS195@PRIVATE.CAP_10UF_25V_X5R_0805.NORMAL(CHIPS)':
+ C_PATH='@private.schematic1(sch_1):ins195@private.\cap_10uf_25v_x5r_0805.normal\(chips)',
+ P_PATH='@private.schematic1(sch_1):page1_ins195@private.\cap_10uf_25v_x5r_0805.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP_22UF_25V_X5R_1206_CAPC3216X140N_22UF,25V':;
+
+SECTION_NUMBER 1
+ '@PRIVATE.SCHEMATIC1(SCH_1):INS220@PRIVATE.CAP_22UF_25V_X5R_1206.NORMAL(CHIPS)':
+ C_PATH='@private.schematic1(sch_1):ins220@private.\cap_22uf_25v_x5r_1206.normal\(chips)',
+ P_PATH='@private.schematic1(sch_1):page1_ins220@private.\cap_22uf_25v_x5r_1206.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP_4.7UF_16V_X5R_0603_CAPC1608X100N_4.7UF,16V':;
+
+SECTION_NUMBER 1
+ '@PRIVATE.SCHEMATIC1(SCH_1):INS245@PRIVATE.CAP_4.7UF_16V_X5R_0603.NORMAL(CHIPS)':
+ C_PATH='@private.schematic1(sch_1):ins245@private.\cap_4.7uf_16v_x5r_0603.normal\(chips)',
+ P_PATH='@private.schematic1(sch_1):page1_ins245@private.\cap_4.7uf_16v_x5r_0603.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RES_R_5%_0402_RESC1005X40N_R,5%':;
+
+SECTION_NUMBER 1
+ '@PRIVATE.SCHEMATIC1(SCH_1):INS120@PRIVATE.RES_R_5%_0402.NORMAL(CHIPS)':
+ C_PATH='@private.schematic1(sch_1):ins120@private.\res_r_5%_0402.normal\(chips)',
+ P_PATH='@private.schematic1(sch_1):page1_ins120@private.\res_r_5%_0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RES_0R_5%_0402_RESC1005X40N_0R,5%':;
+
+SECTION_NUMBER 1
+ '@PRIVATE.SCHEMATIC1(SCH_1):INS270@PRIVATE.RES_0R_5%_0402.NORMAL(CHIPS)':
+ C_PATH='@private.schematic1(sch_1):ins270@private.\res_0r_5%_0402.normal\(chips)',
+ P_PATH='@private.schematic1(sch_1):page1_ins270@private.\res_0r_5%_0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'RES_0R_5%_0603_RESC1608X55N_0R,5%':;
+
+SECTION_NUMBER 1
+ '@PRIVATE.SCHEMATIC1(SCH_1):INS295@PRIVATE.RES_0R_5%_0603.NORMAL(CHIPS)':
+ C_PATH='@private.schematic1(sch_1):ins295@private.\res_0r_5%_0603.normal\(chips)',
+ P_PATH='@private.schematic1(sch_1):page1_ins295@private.\res_0r_5%_0603.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'RES_0R_5%_0805_RESC2013X65N_0R,5%':;
+
+SECTION_NUMBER 1
+ '@PRIVATE.SCHEMATIC1(SCH_1):INS320@PRIVATE.RES_0R_5%_0805.NORMAL(CHIPS)':
+ C_PATH='@private.schematic1(sch_1):ins320@private.\res_0r_5%_0805.normal\(chips)',
+ P_PATH='@private.schematic1(sch_1):page1_ins320@private.\res_0r_5%_0805.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'RES_0R_5%_1206_RESC3216X65N_0R,5%':;
+
+SECTION_NUMBER 1
+ '@PRIVATE.SCHEMATIC1(SCH_1):INS345@PRIVATE.RES_0R_5%_1206.NORMAL(CHIPS)':
+ C_PATH='@private.schematic1(sch_1):ins345@private.\res_0r_5%_1206.normal\(chips)',
+ P_PATH='@private.schematic1(sch_1):page1_ins345@private.\res_0r_5%_1206.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

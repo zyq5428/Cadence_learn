@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : smd5032-2p.dra                                )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Sun Jun 11 23:53:49 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = F:/Cadence_learn/Lib/Package
+    Name      = smd5032-2p.psm
+    User      = 59427
+    Machine   = HEROZHOU
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

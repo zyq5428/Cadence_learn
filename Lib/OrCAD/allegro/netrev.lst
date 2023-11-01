@@ -1,0 +1,94 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : private.brd                                   )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Thu Jun  8 20:46:24 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'f:\cadence_learn\lib\orcad\allegro'
+Design Directory:            'F:/CADENCE_LEARN/LIB/ORCAD/allegro'
+Old design name:             'F:/CADENCE_LEARN/LIB/ORCAD/allegro/private.brd'
+New design name:             'F:/CADENCE_LEARN/LIB/ORCAD/allegro/private.brd'
+
+CmdLine: netrev -i f:\cadence_learn\lib\orcad\allegro -y 1 -q netrev_constraint_report.xml F:/CADENCE_LEARN/LIB/ORCAD/allegro/#Taaaaaf18008.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read f:/cadence_learn/lib/orcad/allegro/pstchip.dat 
+   Finished reading f:/cadence_learn/lib/orcad/allegro/pstchip.dat (00:00:00.05)
+Starting to read f:/cadence_learn/lib/orcad/allegro/pstxprt.dat 
+   Finished reading f:/cadence_learn/lib/orcad/allegro/pstxprt.dat (00:00:00.00)
+Starting to read f:/cadence_learn/lib/orcad/allegro/pstxnet.dat 
+   Finished reading f:/cadence_learn/lib/orcad/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/Cadence/Tutorial_Files/tutorial_database/SITE/pcb/modules 
+
+PSMPATH =  . 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Tutorial_Files/tutorial_database/SITE/pcb/symbols 
+           d:/cadence/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           d:/cadence/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+           F:/Cadence_learn/Lib/Package 
+
+PADPATH =  . 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Tutorial_Files/tutorial_database/SITE/pcb/padstacks 
+           d:/cadence/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           d:/cadence/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+           F:/Cadence_learn/Lib/Package 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jun 8 20:46:24 2023
+   DESIGN NAME : 'PRIVATE'
+   PACKAGING ON Jan 14 2023 14:52:27
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:01:45
+elapsed time  0:00:01
+

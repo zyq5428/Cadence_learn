@@ -1,0 +1,16 @@
+\t (00:00:03) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Wed Jun  7 00:09:14 2023
+\t (00:00:03)         Host=HEROZHOU User=59427 Pid=9176 CPUs=12
+\t (00:00:03) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\FPX\Footprint\CAPC100X50X70L22N\CAPC100X50X70L22N.dra
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged CAPC100X50X70L22N
+\d (00:00:06) Design opened: F:/Cadence_learn/FPX/Footprint/CAPC100X50X70L22N/CAPC100X50X70L22N.dra
+\i (00:00:06) trapsize 157
+\i (00:00:06) trapsize 164
+\i (00:00:06) trapsize 157
+\i (00:00:06) trapsize 160
+\i (00:00:06) generaledit 
+\i (00:00:37) exit 
+\t (00:00:39)     Journal end - Wed Jun  7 00:09:50 2023

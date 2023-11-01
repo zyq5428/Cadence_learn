@@ -1,0 +1,153 @@
+(ExpressProject "private"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[06/08/23]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\private.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\private.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    ("Allegro Netlist Output Board File" ".\allegro\private.brd"))
+  (Folder "Layout"
+    (File ".\allegro\private.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\private.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile "f:\cadence_learn\lib\orcad\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile "f:\cadence_learn\lib\orcad\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile "f:\cadence_learn\lib\orcad\allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile "f:\cadence_learn\lib\orcad\allegro\genfeed.log")))
+  (PartMRUSelector
+    (RES_R_5%_0603
+      (FullPartName "RES_R_5%_0603.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RES_0R_5%_1206
+      (FullPartName "RES_0R_5%_1206.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (RES_0R_5%_0805
+      (FullPartName "RES_0R_5%_0805.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (RES_0R_5%_0603
+      (FullPartName "RES_0R_5%_0603.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (RES_0R_5%_0402
+      (FullPartName "RES_0R_5%_0402.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (CAP_4.7uF_16V_X5R_0603
+      (FullPartName "CAP_4.7uF_16V_X5R_0603.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (CAP_22uF_25V_X5R_1206
+      (FullPartName "CAP_22uF_25V_X5R_1206.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (CAP_10uF_25V_X5R_0805
+      (FullPartName "CAP_10uF_25V_X5R_0805.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (CAP_100nF_50V_X5R_0603
+      (FullPartName "CAP_100nF_50V_X5R_0603.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (CAP_100nF_25V_X5R_0402
+      (FullPartName "CAP_100nF_25V_X5R_0402.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (RES_R_5%_0402
+      (FullPartName "RES_R_5%_0402.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "59427")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "F:\Cadence_learn\Lib\OrCAD\private.dsn")
+      (Path "Design Resources" "F:\Cadence_learn\Lib\OrCAD\private.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "F:\Cadence_learn\Lib\OrCAD\private.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "F:\Cadence_learn\Lib\OrCAD\private.olb")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources" "Library"
+         "F:\Cadence_learn\Lib\OrCAD\private.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 313 0 1077"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1355 28 1123")
+        (Scroll "0 -9")
+        (Zoom "145")
+        (Occurrence "/"))
+      (Path "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Cadence\Cadence\SPB_17.4\tools\capture\library"))
