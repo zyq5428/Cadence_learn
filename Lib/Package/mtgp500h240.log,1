@@ -1,0 +1,24 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : MTGP500H240.dra                               )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Wed Nov  8 18:20:03 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Cadence_learn/Lib/Package
+    Name      = mtgp500h240.psm
+    User      = Administrator
+    Machine   = LTSC-20211101AY
+
+
+Create symbol started.
+ 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

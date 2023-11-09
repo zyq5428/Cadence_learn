@@ -1,21 +1,23 @@
-\t (00:00:02) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Tue Jul  4 23:16:11 2023
-\t (00:00:02)         Host=HEROZHOU User=59427 Pid=1584 CPUs=12
-\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\Lib\Package\capc1005x70n.dra
-\t (00:00:02) 
-   (00:00:02) Loading axlcore.cxt 
-\t (00:00:04) Opening existing design...
-\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged capc1005x70n
-\d (00:00:04) Design opened: F:/Cadence_learn/Lib/Package/capc1005x70n.dra
-\i (00:00:05) trapsize 156
-\i (00:00:05) trapsize 162
-\i (00:00:05) trapsize 156
-\i (00:00:05) trapsize 157
-\i (00:00:06) generaledit 
-\i (00:00:10) 3d 
-\i (00:00:11) generaledit 
-\i (00:00:21) QtSignal pcb3dViewer pcb3dViewer closed
-\i (00:00:26) exit 
-\e (00:00:26) Do you want to save the changes you made to capc1005x70n.dra?
-\i (00:00:27) fillin no 
-\t (00:00:29)     Journal end - Tue Jul  4 23:16:38 2023
+\t (00:08:32) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:08:32)     Journal start - Wed Nov  8 18:15:48 2023
+\t (00:08:32)         Host=LTSC-20211101AY User=Administrator Pid=14640 CPUs=8
+\t (00:08:32) CmdLine= D:\Cadence\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:08:32) 
+\t (00:08:32) Starting new design...
+\i (00:08:32) trapsize 2427
+\i (00:08:32) trapsize 2481
+\i (00:08:32) trapsize 2427
+\i (00:08:33) trapsize 2934
+\i (00:08:33) trapsize 6181
+\i (00:08:33) trapsize 6181
+\i (00:08:33) generaledit 
+\i (00:08:39) add pin 
+\i (00:08:42) setwindow form.mini
+\i (00:08:42) FORM mini pad_browse  
+\i (00:09:15) fillin "menu_cancel"
+\i (00:09:17) setwindow pcb
+\i (00:09:17) exit 
+\t (00:09:17) Exiting from Add Pin.
+\e (00:09:17) Do you want to save the changes you made to MTGP500H240.dra?
+\i (00:09:18) fillin no 
+\t (00:09:18)     Journal end - Wed Nov  8 18:16:35 2023

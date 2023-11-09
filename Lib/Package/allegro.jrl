@@ -1,25 +1,117 @@
-\t (00:00:02) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Mon Jul 17 23:20:14 2023
-\t (00:00:02)         Host=HEROZHOU User=59427 Pid=2596 CPUs=12
-\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\Lib\Package\SOT-23-5.dra
-\t (00:00:02) 
-   (00:00:02) Loading axlcore.cxt 
-\t (00:00:02) Opening existing design...
-\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "SOT-23-5"
-\d (00:00:02) Design opened: F:/Cadence_learn/Lib/Package/SOT-23-5.dra
-\i (00:00:02) trapsize 1047
-\i (00:00:02) trapsize 1092
-\i (00:00:03) trapsize 1047
-\i (00:00:03) trapsize 1067
-\i (00:00:03) generaledit 
-\i (00:00:13) 3d 
-\i (00:00:14) generaledit 
-\i (00:00:17) QtSignal pcb3dViewer pcb3dViewer closed
-\i (00:01:19) padeditdb 
-\i (00:01:21) setwindow form.mini
-\i (00:01:21) FORM mini padlist S_R121T59D5M121_59P121_59 
+\t (00:02:03) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:02:03)     Journal start - Wed Nov  8 18:18:50 2023
+\t (00:02:03)         Host=LTSC-20211101AY User=Administrator Pid=16896 CPUs=8
+\t (00:02:03) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe E:\git\ST-LINK-V2\Hardware\allegro\st-link-v2_pro.brd
+\t (00:02:03) 
+\t (00:02:03) Starting new design...
+\i (00:02:03) trapsize 2427
+\i (00:02:03) trapsize 2481
+\i (00:02:03) trapsize 2427
+\i (00:02:04) trapsize 2934
+\i (00:02:04) trapsize 6181
+\i (00:02:04) trapsize 6181
+\i (00:02:04) generaledit 
+\i (00:02:12) zoom in 1 
 \i (00:02:12) setwindow pcb
-\i (00:02:12) exit 
-\e (00:02:12) Do you want to save the changes you made to SOT-23-5.dra?
-\i (00:02:14) fillin no 
-\t (00:02:16)     Journal end - Mon Jul 17 23:22:28 2023
+\i (00:02:12) zoom in 43.26 -105.07
+\i (00:02:12) trapsize 3090
+\i (00:02:12) zoom in 1 
+\i (00:02:12) setwindow pcb
+\i (00:02:12) zoom in 160.70 -30.90
+\i (00:02:12) trapsize 1545
+\i (00:02:13) zoom in 1 
+\i (00:02:13) setwindow pcb
+\i (00:02:13) zoom in 37.09 3.09
+\i (00:02:13) trapsize 773
+\i (00:02:13) zoom in 1 
+\i (00:02:13) setwindow pcb
+\i (00:02:13) zoom in 37.09 3.09
+\i (00:02:13) trapsize 386
+\i (00:02:13) zoom in 1 
+\i (00:02:13) setwindow pcb
+\i (00:02:13) zoom in 37.10 3.10
+\i (00:02:13) trapsize 193
+\i (00:02:19) add pin 
+\i (00:02:20) setwindow form.mini
+\i (00:02:20) FORM mini pad_browse  
+\i (00:02:27) fillin "Mtgp500h240"
+\w (00:02:27) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:02:27) Using 'MTGP500H240.pad'.
+\i (00:02:33) setwindow pcb
+\i (00:02:33) pick grid -49.44 -3.85
+\t (00:02:33) last pick:  0.00 0.00
+\t (00:02:33) Using 'MTGP500H240.pad'.
+\i (00:02:37) zoom out 1 
+\i (00:02:37) setwindow pcb
+\i (00:02:37) zoom out 105.47 -5.78
+\i (00:02:37) trapsize 386
+\i (00:02:37) zoom out 1 
+\i (00:02:37) setwindow pcb
+\i (00:02:37) zoom out 105.46 -5.78
+\i (00:02:37) trapsize 773
+\i (00:02:37) zoom out 1 
+\i (00:02:37) setwindow pcb
+\i (00:02:37) zoom out 105.47 -5.77
+\i (00:02:37) trapsize 1545
+\i (00:02:37) zoom out 1 
+\i (00:02:37) setwindow pcb
+\i (00:02:37) zoom out 105.46 -5.77
+\i (00:02:37) trapsize 3090
+\i (00:02:38) prepopup 544.04 -178.84
+\i (00:02:39) done 
+\t (00:02:39) Exiting from Add Pin.
+\i (00:02:39) generaledit 
+\i (00:02:43) zoom in 1 
+\i (00:02:43) setwindow pcb
+\i (00:02:43) zoom in 68.12 0.41
+\i (00:02:43) trapsize 1545
+\i (00:02:44) zoom in 1 
+\i (00:02:44) setwindow pcb
+\i (00:02:44) zoom in 68.13 0.41
+\i (00:02:44) trapsize 773
+\i (00:02:44) zoom in 1 
+\i (00:02:44) setwindow pcb
+\i (00:02:44) zoom in 68.13 0.41
+\i (00:02:44) trapsize 386
+\i (00:02:45) zoom in 1 
+\i (00:02:45) setwindow pcb
+\i (00:02:45) zoom in 58.86 -12.72
+\i (00:02:45) trapsize 193
+\i (00:02:46) zoom out 1 
+\i (00:02:46) setwindow pcb
+\i (00:02:46) zoom out 0.92 -11.56
+\i (00:02:46) trapsize 386
+\i (00:03:13) save 
+\e (00:03:15) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:03:16) generaledit 
+\i (00:03:41) setwindow text
+\i (00:03:41) close
+\i (00:03:46) setwindow pcb
+\i (00:03:46) create symbol 
+\i (00:03:47) fillin "MTGP500H240.psm"
+\t (00:03:47) Creating package symbol 'D:/Cadence_learn/Lib/Package/MTGP500H240.psm'.
+\t (00:03:47) Starting Create symbol...
+\e (00:03:48) ERROR(SPMHGE-268): create_sym had errors, use Viewlog to review the log file.
+\e (00:03:48) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:03:48) generaledit 
+\i (00:07:32) setwindow text
+\i (00:07:32) close
+\i (00:07:40) setwindow pcb
+\i (00:07:40) label refdes 
+\t (00:07:40) Pick text location.
+\i (00:08:09) pick grid -20.71 5.44
+\t (00:08:09) last pick:  0.00 0.00
+\t (00:08:09) Enter text string.
+\i (00:08:18) setwindow pcb
+\i (00:08:18) pick 0.00 0.00
+\i (00:08:45) create symbol 
+\i (00:08:47) fillin "MTGP500H240.psm"
+\t (00:08:47) Creating package symbol 'D:/Cadence_learn/Lib/Package/MTGP500H240.psm'.
+\t (00:08:47) Starting Create symbol...
+\i (00:08:48) generaledit 
+\i (00:08:53) save 
+\i (00:08:54) fillin yes 
+\t (00:08:55) Symbol 'mtgp500h240.psm' created.
+\i (00:08:55) generaledit 
+\i (00:09:10) exit 
+\t (00:09:10)     Journal end - Wed Nov  8 18:25:58 2023
