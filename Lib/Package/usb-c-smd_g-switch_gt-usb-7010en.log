@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : usb-c-smd_g-switch_gt-usb-7010en.dra          )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Wed Nov 15 11:49:21 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Cadence_learn/Lib/Package
+    Name      = usb-c-smd_g-switch_gt-usb-7010en.psm
+    User      = Administrator
+    Machine   = LTSC-20211101AY
+
+
+创建 Symbol 已开始。
+ 
+
+创建 Symbol 完成。
+

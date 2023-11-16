@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : FLASH_OB60_170_OB100_200.dra                  )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Mon Nov 13 18:12:34 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: FLASH
+    Directory = D:/Cadence_learn/Lib/Package
+    Name      = flash_ob60_170_ob100_200.fsm
+    User      = Administrator
+    Machine   = LTSC-20211101AY
+
+
+创建 Symbol 已开始。
+ 
+
+创建 Symbol 完成。
+

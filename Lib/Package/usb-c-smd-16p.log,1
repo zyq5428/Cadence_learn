@@ -1,0 +1,24 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : USB-C-SMD-16P.dra                             )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Tue Nov 14 18:02:49 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Cadence_learn/Lib/Package
+    Name      = usb-c-smd-16p.psm
+    User      = Administrator
+    Machine   = LTSC-20211101AY
+
+
+创建 Symbol 已开始。
+ 
+ ERROR(SPMHCS-1): Symbol 缺少参考位号。 
+
+ERROR(SPMHA1-291): 创建 Symbol 被中止。
+

@@ -1,0 +1,43 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Wed Nov 15 11:36:14 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: E:/ST-LINK-V2/AD/conversion.brd ***
+
+
+
+  *** Creating all device files (see create_devices.log) ***
+
+
+  *** Creating padstacks. ***
+
+  PTH_O394X630SLOT236X512S1 being dumped.
+
+  PTH_O394X827SLOT236X669S1 being dumped.
+
+  SMD_R118X453S1 being dumped.
+
+  SMD_R236X453S1 being dumped.
+
+
+  *** Creating package symbols (.dra and .psm) ***
+
+  usb-c-smd_g-switch_gt-usb-7010en being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:                4
+Number of package symbols dumped:          1
+
+Total number of symbols dumped:            1
+*****************************************************
+

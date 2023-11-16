@@ -1,117 +1,217 @@
-\t (00:02:03) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:02:03)     Journal start - Wed Nov  8 18:18:50 2023
-\t (00:02:03)         Host=LTSC-20211101AY User=Administrator Pid=16896 CPUs=8
-\t (00:02:03) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe E:\git\ST-LINK-V2\Hardware\allegro\st-link-v2_pro.brd
-\t (00:02:03) 
-\t (00:02:03) Starting new design...
-\i (00:02:03) trapsize 2427
-\i (00:02:03) trapsize 2481
-\i (00:02:03) trapsize 2427
-\i (00:02:04) trapsize 2934
-\i (00:02:04) trapsize 6181
-\i (00:02:04) trapsize 6181
-\i (00:02:04) generaledit 
-\i (00:02:12) zoom in 1 
-\i (00:02:12) setwindow pcb
-\i (00:02:12) zoom in 43.26 -105.07
-\i (00:02:12) trapsize 3090
-\i (00:02:12) zoom in 1 
-\i (00:02:12) setwindow pcb
-\i (00:02:12) zoom in 160.70 -30.90
-\i (00:02:12) trapsize 1545
-\i (00:02:13) zoom in 1 
-\i (00:02:13) setwindow pcb
-\i (00:02:13) zoom in 37.09 3.09
-\i (00:02:13) trapsize 773
-\i (00:02:13) zoom in 1 
-\i (00:02:13) setwindow pcb
-\i (00:02:13) zoom in 37.09 3.09
-\i (00:02:13) trapsize 386
-\i (00:02:13) zoom in 1 
-\i (00:02:13) setwindow pcb
-\i (00:02:13) zoom in 37.10 3.10
-\i (00:02:13) trapsize 193
-\i (00:02:19) add pin 
-\i (00:02:20) setwindow form.mini
-\i (00:02:20) FORM mini pad_browse  
-\i (00:02:27) fillin "Mtgp500h240"
-\w (00:02:27) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:02:27) Using 'MTGP500H240.pad'.
-\i (00:02:33) setwindow pcb
-\i (00:02:33) pick grid -49.44 -3.85
-\t (00:02:33) last pick:  0.00 0.00
-\t (00:02:33) Using 'MTGP500H240.pad'.
-\i (00:02:37) zoom out 1 
-\i (00:02:37) setwindow pcb
-\i (00:02:37) zoom out 105.47 -5.78
-\i (00:02:37) trapsize 386
-\i (00:02:37) zoom out 1 
-\i (00:02:37) setwindow pcb
-\i (00:02:37) zoom out 105.46 -5.78
-\i (00:02:37) trapsize 773
-\i (00:02:37) zoom out 1 
-\i (00:02:37) setwindow pcb
-\i (00:02:37) zoom out 105.47 -5.77
-\i (00:02:37) trapsize 1545
-\i (00:02:37) zoom out 1 
-\i (00:02:37) setwindow pcb
-\i (00:02:37) zoom out 105.46 -5.77
-\i (00:02:37) trapsize 3090
-\i (00:02:38) prepopup 544.04 -178.84
-\i (00:02:39) done 
-\t (00:02:39) Exiting from Add Pin.
-\i (00:02:39) generaledit 
-\i (00:02:43) zoom in 1 
-\i (00:02:43) setwindow pcb
-\i (00:02:43) zoom in 68.12 0.41
-\i (00:02:43) trapsize 1545
-\i (00:02:44) zoom in 1 
-\i (00:02:44) setwindow pcb
-\i (00:02:44) zoom in 68.13 0.41
-\i (00:02:44) trapsize 773
-\i (00:02:44) zoom in 1 
-\i (00:02:44) setwindow pcb
-\i (00:02:44) zoom in 68.13 0.41
-\i (00:02:44) trapsize 386
-\i (00:02:45) zoom in 1 
-\i (00:02:45) setwindow pcb
-\i (00:02:45) zoom in 58.86 -12.72
-\i (00:02:45) trapsize 193
-\i (00:02:46) zoom out 1 
-\i (00:02:46) setwindow pcb
-\i (00:02:46) zoom out 0.92 -11.56
-\i (00:02:46) trapsize 386
-\i (00:03:13) save 
-\e (00:03:15) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
-\i (00:03:16) generaledit 
-\i (00:03:41) setwindow text
-\i (00:03:41) close
-\i (00:03:46) setwindow pcb
-\i (00:03:46) create symbol 
-\i (00:03:47) fillin "MTGP500H240.psm"
-\t (00:03:47) Creating package symbol 'D:/Cadence_learn/Lib/Package/MTGP500H240.psm'.
-\t (00:03:47) Starting Create symbol...
-\e (00:03:48) ERROR(SPMHGE-268): create_sym had errors, use Viewlog to review the log file.
-\e (00:03:48) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
-\i (00:03:48) generaledit 
-\i (00:07:32) setwindow text
-\i (00:07:32) close
-\i (00:07:40) setwindow pcb
-\i (00:07:40) label refdes 
-\t (00:07:40) Pick text location.
-\i (00:08:09) pick grid -20.71 5.44
-\t (00:08:09) last pick:  0.00 0.00
-\t (00:08:09) Enter text string.
-\i (00:08:18) setwindow pcb
-\i (00:08:18) pick 0.00 0.00
-\i (00:08:45) create symbol 
-\i (00:08:47) fillin "MTGP500H240.psm"
-\t (00:08:47) Creating package symbol 'D:/Cadence_learn/Lib/Package/MTGP500H240.psm'.
-\t (00:08:47) Starting Create symbol...
-\i (00:08:48) generaledit 
-\i (00:08:53) save 
-\i (00:08:54) fillin yes 
-\t (00:08:55) Symbol 'mtgp500h240.psm' created.
-\i (00:08:55) generaledit 
-\i (00:09:10) exit 
-\t (00:09:10)     Journal end - Wed Nov  8 18:25:58 2023
+\t (00:00:01) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Thu Nov 16 16:25:28 2023
+\t (00:00:01)         Host=LTSC-20211101AY User=Administrator Pid=13544 CPUs=8
+\t (00:00:01) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe D:\Cadence_learn\Lib\Package\qfp50p900x900x145-48n.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "qfp50p900x900x145-48n"
+\d (00:00:03) Design opened: D:/Cadence_learn/Lib/Package/qfp50p900x900x145-48n.dra
+\i (00:00:03) trapsize 847
+\i (00:00:03) trapsize 870
+\i (00:00:03) trapsize 847
+\i (00:00:03) trapsize 863
+\i (00:00:03) trapsize 888
+\i (00:00:03) generaledit 
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in -3.4484 2.1622
+\i (00:00:06) trapsize 444
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in -3.4484 2.1711
+\i (00:00:06) trapsize 222
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in -3.4484 2.1756
+\i (00:00:06) trapsize 111
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -2.9933 2.1201
+\i (00:00:06) trapsize 222
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -2.9799 2.1201
+\i (00:00:06) trapsize 444
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in -3.9303 2.5732
+\i (00:00:07) trapsize 222
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in -3.9302 2.5732
+\i (00:00:07) trapsize 111
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out -4.0745 2.5133
+\i (00:00:07) trapsize 222
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out -4.0789 2.5133
+\i (00:00:07) trapsize 444
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -3.0932 2.9485
+\i (00:00:08) trapsize 888
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -3.0932 2.9486
+\i (00:00:08) trapsize 1776
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -13.0313 2.9486
+\i (00:00:08) trapsize 3658
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 0.4087 3.0423
+\i (00:00:09) trapsize 1829
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -11.5157 3.0057
+\i (00:00:09) trapsize 914
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 3.2617 3.5361
+\i (00:00:10) trapsize 457
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in -0.2040 4.2311
+\i (00:00:10) trapsize 229
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in -0.2040 4.2311
+\i (00:00:10) trapsize 114
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out -1.2579 4.1831
+\i (00:00:11) trapsize 229
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out -1.2579 4.1831
+\i (00:00:11) trapsize 457
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out -0.8098 4.0186
+\i (00:00:12) trapsize 914
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in -0.2062 -0.5171
+\i (00:00:13) trapsize 457
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in -0.1971 -0.5170
+\i (00:00:13) trapsize 229
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out -0.0599 0.0408
+\i (00:00:16) trapsize 457
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out -0.0599 0.0409
+\i (00:00:16) trapsize 914
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out -0.4440 2.6744
+\i (00:00:19) trapsize 1829
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in 8.7484 1.5406
+\i (00:00:20) trapsize 914
+\i (00:00:23) 3d 
+\i (00:00:24) QtSignal 3DUniFilterDialog UniFilterOkButton clicked
+\i (00:00:26) generaledit 
+\i (00:00:34) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 670 87 990 229 1 1 0 +
+\i (00:00:34) QtSignal "229.017" "482.069" "238.655"
+\i (00:00:34) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 670 87 990 229 1 0 +
+\i (00:00:34) QtSignal 0 "229.017" "482.069" "238.655"
+\i (00:00:35) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
+\i (00:00:39) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 181 315 501 457 0 0 120
+\i (00:00:39) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 183 318 503 460 0 0 120
+\i (00:00:39) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 185 320 505 462 0 0 120
+\i (00:00:40) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 231 312 551 454 0 0 "-120"
+\i (00:00:40) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 231 312 551 454 0 0 "-120"
+\i (00:00:40) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 232 312 552 454 0 0 "-120"
+\i (00:00:44) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 1291 259 1291 304 1 1 +
+\i (00:00:44) QtSignal 0 "832.192" "188.115" "-52.2942"
+\i (00:00:45) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 1291 259 1291 304 1 +
+\i (00:00:45) QtSignal 0 0 "832.192" "188.115" "-52.2942"
+\i (00:00:46) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 49 536870912 false 1 1
+\i (00:00:52) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
+\i (00:01:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 1244 384 1244 429 1 1 +
+\i (00:01:25) QtSignal 0 "763.161" "4.64016" "-52.2942"
+\i (00:01:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 1244 384 1244 429 1 +
+\i (00:01:25) QtSignal 0 0 "763.161" "4.64016" "-52.2942"
+\i (00:01:26) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 49 536870912 false 1 1
+\i (00:01:44) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 1237 422 1237 467 1 1 +
+\i (00:01:44) QtSignal 0 "555.55" "524.339" "-109.496"
+\i (00:01:44) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 1237 422 1237 467 1 +
+\i (00:01:44) QtSignal 0 0 "555.55" "524.339" "-109.496"
+\i (00:01:45) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
+\i (00:01:48) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 52 536870912 false 1 4
+\i (00:01:49) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 54 536870912 false 1 6
+\i (00:01:49) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 57 536870912 false 1 9
+\i (00:01:50) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 55 536870912 false 1 7
+\i (00:01:50) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 49 536870912 false 1 1
+\i (00:01:52) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 51 536870912 false 1 3
+\i (00:01:56) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:02:01) zoom in 1 
+\i (00:02:01) setwindow pcb
+\i (00:02:01) zoom in 2.5668 2.3270
+\i (00:02:01) trapsize 457
+\i (00:02:01) zoom in 1 
+\i (00:02:01) setwindow pcb
+\i (00:02:01) zoom in 2.5668 2.3270
+\i (00:02:01) trapsize 229
+\i (00:02:01) zoom in 1 
+\i (00:02:01) setwindow pcb
+\i (00:02:01) zoom in 4.4186 2.7111
+\i (00:02:01) trapsize 114
+\i (00:02:01) zoom in 1 
+\i (00:02:01) setwindow pcb
+\i (00:02:01) zoom in 4.4186 2.7111
+\i (00:02:01) trapsize 57
+\i (00:02:02) zoom out 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom out 3.7397 2.3876
+\i (00:02:02) trapsize 114
+\i (00:02:02) zoom out 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom out 3.7397 2.3876
+\i (00:02:02) trapsize 229
+\i (00:02:03) zoom in 1 
+\i (00:02:03) setwindow pcb
+\i (00:02:03) zoom in 3.7443 2.8128
+\i (00:02:03) trapsize 114
+\i (00:02:03) zoom in 1 
+\i (00:02:03) setwindow pcb
+\i (00:02:03) zoom in 3.7443 2.8151
+\i (00:02:03) trapsize 57
+\i (00:02:03) zoom out 1 
+\i (00:02:03) setwindow pcb
+\i (00:02:03) zoom out 3.7489 2.8163
+\i (00:02:03) trapsize 114
+\i (00:02:03) zoom out 1 
+\i (00:02:03) setwindow pcb
+\i (00:02:03) zoom out 3.7489 2.8163
+\i (00:02:03) trapsize 229
+\i (00:02:04) zoom out 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom out 3.8313 2.7386
+\i (00:02:04) trapsize 457
+\i (00:02:04) zoom out 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom out 3.8769 2.7568
+\i (00:02:04) trapsize 914
+\i (00:02:05) zoom out 1 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) zoom out 4.0415 2.5922
+\i (00:02:05) trapsize 1829
+\i (00:02:05) zoom out 1 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) zoom out -9.1747 2.5923
+\i (00:02:05) trapsize 3658
+\i (00:02:06) exit 
+\e (00:02:06) Do you want to save the changes you made to qfp50p900x900x145-48n.dra?
+\i (00:02:07) fillin no 
+\t (00:02:07)     Journal end - Thu Nov 16 16:27:35 2023
