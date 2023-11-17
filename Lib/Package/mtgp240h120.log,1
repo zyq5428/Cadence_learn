@@ -1,14 +1,23 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    Downrev Design                                                   )
+(    CREATE SYMBOL                                                    )
 (                                                                     )
 (    Drawing          : MTGP240H120.dra                               )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Fri Nov 17 10:24:11 2023                      )
+(    Date/Time        : Thu Nov 16 18:33:16 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
+Create Symbol of type: PACKAGE
+    Directory = D:/Cadence_learn/Lib/Package
+    Name      = mtgp240h120.psm
+    User      = Administrator
+    Machine   = LTSC-20211101AY
 
-Changes made to design for 17.2 compatibility.
+
+Create symbol started.
+ 
+
+Create symbol completed.
 

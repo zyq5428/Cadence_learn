@@ -1,8 +1,34 @@
 \t (00:00:01) padstack_editor 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Tue Nov 14 17:13:26 2023
-\t (00:00:01)         Host=LTSC-20211101AY User=Administrator Pid=4620 CPUs=8
-\t (00:00:01) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\padstack_editor.exe D:\Cadence_learn\Lib\Package\smd_r30_114rc40_124.pad
+\t (00:00:01)     Journal start - Fri Nov 17 10:13:03 2023
+\t (00:00:01)         Host=LTSC-20211101AY User=Administrator Pid=6380 CPUs=8
+\t (00:00:01) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\padstack_editor.exe D:\Cadence_learn\Lib\Package\mtgp240h120.pad
 \t (00:00:01) 
-\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "…Ëº∆≤„"
-\d (15:54:54) QtFillin No
-\t (15:54:55)     Journal end - Wed Nov 15 09:08:19 2023
+\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:08) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:19) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:21) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:21) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:26) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:29) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:31) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:57) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:57) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:58) QtSignal GuidedTabsParent GuidedMaskLayersTab keyPressEvent 48 536870912 false 1 0
+\d (00:00:59) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 3 Pad
+\d (00:00:59) QtSignal GuidedMaskLayersTab LayersTable cellClicked 3 Pad 3 1
+\d (00:00:59) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:01:00) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:01:02) QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged None
+\d (00:01:03) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 3 Pad
+\d (00:01:03) QtSignal GuidedMaskLayersTab LayersTable cellClicked 3 Pad 3 1
+\d (00:09:39) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:09:42) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:09:43) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:09:44) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:09:48) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:09:48) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:09:49) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:09:50) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:09:52) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:09:54) QtSignal MainWindow Save triggered
+\t (00:09:59)     Journal end - Fri Nov 17 10:23:02 2023

@@ -1,44 +1,10 @@
 \t (00:00:00) padstack_editor 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Tue Nov 14 16:50:32 2023
-\t (00:00:00)         Host=LTSC-20211101AY User=Administrator Pid=9924 CPUs=8
-\t (00:00:00) CmdLine= padstack_editor -mpssession Administrator -file C:/Users/Administrator/AppData/Local/Temp/#Taaaaad01948.tmp -pname S358H318 -data C:/Users/Administrator/AppData/Local/Temp/#Taaaaag01948.tmp
+\t (00:00:00)     Journal start - Thu Nov 16 17:36:11 2023
+\t (00:00:00)         Host=LTSC-20211101AY User=Administrator Pid=13724 CPUs=8
+\t (00:00:00) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\padstack_editor.exe D:\Cadence_learn\Lib\Package\mgtp240h120.pad
 \t (00:00:00) 
-\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "ÆğÊ¼"
-\d (00:00:09) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×"
-\d (00:00:11) QtSignal GuidedTabsParent GuidedTabs currentChanged "Éè¼Æ²ã"
-\d (00:00:13) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×"
-\d (00:00:14) QtSignal GuidedTabsParent GuidedTabs currentChanged "Éè¼Æ²ã"
-\d (00:00:23) QtSignal GuidedTabsParent GuidedTabs currentChanged "ÕÚÕÖ²ã"
-\d (00:00:25) QtSignal GuidedTabsParent GuidedTabs currentChanged "Éè¼Æ²ã"
-\d (00:00:27) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×Æ«ÒÆ"
-\d (00:00:30) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿× Symbol"
-\d (00:00:30) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×Æ«ÒÆ"
-\d (00:00:31) QtSignal GuidedTabsParent GuidedTabs currentChanged "Éè¼Æ²ã"
-\d (00:00:32) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×Æ«ÒÆ"
-\d (00:00:34) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×"
-\d (00:00:40) QtSignal GuidedTabsParent GuidedTabs currentChanged "ÆğÊ¼"
-\d (00:00:45) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿× Symbol"
-\d (00:00:46) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×Æ«ÒÆ"
-\d (00:00:46) QtSignal GuidedTabsParent GuidedTabs currentChanged "Éè¼Æ²ã"
-\d (00:00:46) QtSignal GuidedTabsParent GuidedTabs currentChanged "ÕÚÕÖ²ã"
-\d (00:00:47) QtSignal GuidedTabsParent GuidedTabs currentChanged "Ñ¡Ïî"
-\d (00:00:47) QtSignal GuidedTabsParent GuidedTabs currentChanged "ÕÚÕÖ²ã"
-\d (00:00:48) QtSignal GuidedTabsParent GuidedTabs currentChanged "Éè¼Æ²ã"
-\d (00:00:48) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×Æ«ÒÆ"
-\d (00:00:49) QtSignal GuidedTabsParent GuidedTabs currentChanged "Éè¼Æ²ã"
-\d (00:00:50) QtSignal GuidedTabsParent GuidedTabs currentChanged "ÕÚÕÖ²ã"
-\d (00:00:51) QtSignal GuidedTabsParent GuidedTabs currentChanged "Éè¼Æ²ã"
-\d (00:00:52) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×Æ«ÒÆ"
-\d (00:00:52) QtSignal GuidedTabsParent GuidedTabs currentChanged "Éè¼Æ²ã"
-\d (00:00:53) QtSignal GuidedTabsParent GuidedTabs currentChanged "ÕÚÕÖ²ã"
-\d (00:00:54) QtSignal GuidedTabsParent GuidedTabs currentChanged "Ñ¡Ïî"
-\d (00:01:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Éè¼Æ²ã"
-\d (00:01:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "ÕÚÕÖ²ã"
-\d (00:01:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "Éè¼Æ²ã"
-\d (00:01:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×Æ«ÒÆ"
-\d (00:01:06) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿× Symbol"
-\d (00:01:11) QtSignal GuidedTabsParent GuidedTabs currentChanged "¸¨Öú×ê¿×"
-\d (00:01:12) QtSignal GuidedTabsParent GuidedTabs currentChanged "ÆğÊ¼"
-\d (00:01:13) QtSignal GuidedTabsParent GuidedTabs currentChanged "×ê¿×"
-\d (00:01:14) QtSignal GuidedTabsParent GuidedTabs currentChanged "ÆğÊ¼"
-\t (00:01:18)     Journal end - Tue Nov 14 16:51:50 2023
+\d (00:00:07) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:09) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:15) QtSignal MainWindow SaveAs triggered
+\d (00:00:32) QtFillin "MTGP240H120.pad"
+\t (00:00:36)     Journal end - Thu Nov 16 17:36:47 2023

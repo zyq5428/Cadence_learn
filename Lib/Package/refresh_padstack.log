@@ -1,0 +1,50 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : MTGP240H120.dra                               )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Fri Nov 17 10:24:11 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Fri Nov 17 10:24:11 2023				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'D:/Cadence_learn/Lib/Package/MTGP240H120.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/tutorial_database/SITE/pcb/symbols 
+           d:/cadence/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           d:/cadence/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+           D:/Cadence_learn/FPX/Footprint 
+           D:/Cadence_learn/Lib/Package 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/tutorial_database/SITE/pcb/padstacks 
+           d:/cadence/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           d:/cadence/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+           D:/Cadence_learn/FPX/Footprint 
+           D:/Cadence_learn/Lib/Package 
+
+
+------ Pad Stack Refresh Messages ------
+
+'MTGP240H120'  pad stack refresh starting.
+
+     'MTGP240H120'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.
