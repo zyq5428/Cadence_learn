@@ -1,66 +1,43 @@
-\t (00:00:01) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Fri Nov 17 10:23:11 2023
-\t (00:00:01)         Host=LTSC-20211101AY User=Administrator Pid=10588 CPUs=8
-\t (00:00:01) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe D:\Cadence_learn\Lib\Package\MTGP240H120.dra
-\t (00:00:01) 
-   (00:00:01) Loading axlcore.cxt 
-\t (00:00:01) Opening existing design...
-\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged MTGP240H120
-\d (00:00:01) Design opened: D:/Cadence_learn/Lib/Package/MTGP240H120.dra
-\i (00:00:02) trapsize 225
-\i (00:00:02) trapsize 231
-\i (00:00:02) trapsize 225
-\i (00:00:02) trapsize 229
-\i (00:00:02) trapsize 236
-\i (00:00:02) generaledit 
-\i (00:00:37) prepopup 18.06 21.16
-\i (00:00:39) pick grid 165.35 53.26
-\t (00:00:39) last pick:  165.00 55.00
-\i (00:00:40) prepopup 32.70 25.88
-\i (00:00:41) pick grid 151.19 65.53
-\t (00:00:41) last pick:  150.00 65.00
-\i (00:00:44) setwindow form.find
-\i (00:00:44) FORM find all_off  
-\i (00:00:45) FORM find pins YES 
-\i (00:00:47) setwindow pcb
-\i (00:00:47) prepopup 12.87 12.19
-\i (00:00:49) pick grid 110.12 51.37
-\t (00:00:49) last pick:  110.00 50.00
-\i (00:00:58) refresh padstack 
-\i (00:01:00) setwindow form.rf_pad
-\i (00:01:00) FORM rf_pad execute  
-\t (00:01:00) Starting Refreshing padstacks...
-\t (00:01:01) Opening existing design...
-\i (00:01:01) setwindow pcb
-\i (00:01:01) trapsize 236
-\i (00:01:01) trapsize 242
-\i (00:01:01) trapsize 236
-\i (00:01:02) trapsize 250
-\i (00:01:05) setwindow form.rf_pad
-\i (00:01:05) FORM rf_pad cancel  
-\i (00:01:05) setwindow pcb
-\i (00:01:05) generaledit 
-\i (00:01:11) QtSignal ColorVisibilityPane CVPGlobalVisOff clicked
-\i (00:01:16) color192 
-\i (00:01:16) generaledit 
-\i (00:01:18) trapsize 250
-\i (00:01:18) trapsize 250
-\i (00:01:20) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
-\i (00:01:22) save 
-\i (00:01:23) fillin yes 
-\t (00:01:24) Symbol 'mtgp240h120.psm' created.
-\i (00:01:24) generaledit 
-\i (00:01:31) color192 
-\i (00:01:31) generaledit 
-\i (00:01:38) QtSignal CVDLayerContainer CVDVisibilityOff clicked
-\i (00:01:40) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 1
-\i (00:01:40) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
-\i (00:01:42) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 0
-\i (00:01:42) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
-\i (00:01:45) QtSignal CVDLayerTable VertHeader clickedCheckBox "Soldermask_Top" 1
-\i (00:01:45) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 2 0
-\i (00:02:03) QtFillin No
-\i (00:02:03) trapsize 250
-\i (00:02:03) trapsize 250
-\i (00:02:04) exit 
-\t (00:02:05)     Journal end - Fri Nov 17 10:25:14 2023
+\t (00:00:02) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sun Nov 19 16:05:38 2023
+\t (00:00:02)         Host=HEROZHOU User=59427 Pid=14248 CPUs=12
+\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\Lib\Package\USB-C-SMD-16P.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: F:/Cadence_learn/Lib/Package/USB-C-SMD-16P.dra
+\i (00:00:02) trapsize 1868
+\i (00:00:03) trapsize 1947
+\i (00:00:03) trapsize 1868
+\i (00:00:03) trapsize 1902
+\i (00:00:03) generaledit 
+\i (00:00:08) padeditdb 
+\i (00:00:17) setwindow form.mini
+\i (00:00:17) FORM mini padlist SLOT_OB60_170OB100_200 
+\i (00:00:18) FORM mini pad_stack_edit  
+\i (00:00:49) setwindow pcb
+\i (00:00:49) refresh symbol 
+\i (00:00:51) setwindow form.upd_element
+\i (00:00:51) FORM upd_element close  
+\i (00:00:51) setwindow pcb
+\i (00:00:51) generaledit 
+\i (00:01:04) refresh padstack 
+\i (00:01:06) setwindow form.rf_pad
+\i (00:01:06) FORM rf_pad execute  
+\t (00:01:06) Starting Refreshing padstacks...
+\t (00:01:07) Opening existing design...
+\i (00:01:07) setwindow pcb
+\i (00:01:07) trapsize 1902
+\i (00:01:07) trapsize 1983
+\i (00:01:07) trapsize 1902
+\i (00:01:07) trapsize 1996
+\i (00:01:11) setwindow form.rf_pad
+\i (00:01:11) FORM rf_pad cancel  
+\i (00:01:11) setwindow pcb
+\i (00:01:11) generaledit 
+\i (00:01:12) save 
+\i (00:01:13) fillin yes 
+\t (00:01:14) Symbol 'usb-c-smd-16p.psm' created.
+\i (00:01:14) generaledit 
+\i (00:01:21) exit 
+\t (00:01:23)     Journal end - Sun Nov 19 16:06:59 2023

@@ -1,10 +1,19 @@
-\t (00:00:00) padstack_editor 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Thu Nov 16 17:36:11 2023
-\t (00:00:00)         Host=LTSC-20211101AY User=Administrator Pid=13724 CPUs=8
-\t (00:00:00) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\padstack_editor.exe D:\Cadence_learn\Lib\Package\mgtp240h120.pad
-\t (00:00:00) 
-\d (00:00:07) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
-\d (00:00:09) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
-\d (00:00:15) QtSignal MainWindow SaveAs triggered
-\d (00:00:32) QtFillin "MTGP240H120.pad"
-\t (00:00:36)     Journal end - Thu Nov 16 17:36:47 2023
+\t (00:00:01) padstack_editor 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Sun Nov 19 14:09:38 2023
+\t (00:00:01)         Host=HEROZHOU User=59427 Pid=21724 CPUs=12
+\t (00:00:01) CmdLine= padstack_editor -mpssession 59427 -file C:/Users/59427/AppData/Local/Temp/#Taaaaac18056.tmp -pname SLOT_OB60_170OB100_200 -data C:/Users/59427/AppData/Local/Temp/#Taaaaaf18056.tmp
+\t (00:00:01) 
+\d (00:00:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:05) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:05) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:07) QtSignal GuidedTabsParent GuidedMaskLayersTab keyPressEvent 16777223 0 false 1 ""
+\d (00:00:09) QtSignal GuidedTabsParent GuidedMaskLayersTab keyPressEvent 48 536870912 false 1 0
+\d (00:00:10) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 3 Pad
+\d (00:00:10) QtSignal GuidedMaskLayersTab LayersTable cellClicked 3 Pad 3 1
+\d (00:00:10) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:10) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:13) QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged None
+\d (00:00:14) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 3 Pad
+\d (00:00:14) QtSignal GuidedMaskLayersTab LayersTable cellClicked 3 Pad 3 1
+\d (00:00:23) QtSignal MainWindow Save triggered
+\t (00:00:29)     Journal end - Sun Nov 19 14:10:07 2023

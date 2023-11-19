@@ -1,32 +1,21 @@
-\t (00:00:01) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Fri Nov 17 17:37:46 2023
-\t (00:00:01)         Host=LTSC-20211101AY User=Administrator Pid=11660 CPUs=8
-\t (00:00:01) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe D:\Cadence_learn\FPX\Footprint\HEADER_6X1_2P54.dra
-\t (00:00:01) 
-   (00:00:01) Loading axlcore.cxt 
-\t (00:00:01) Opening existing design...
-\d (00:00:01) Design opened: D:/Cadence_learn/FPX/Footprint/HEADER_6X1_2P54.dra
-\i (00:00:02) trapsize 618
-\i (00:00:02) trapsize 635
-\i (00:00:02) trapsize 618
-\i (00:00:02) trapsize 630
-\i (00:00:02) trapsize 1012
-\i (00:00:02) trapsize 995
+\t (00:00:02) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sun Nov 19 14:07:08 2023
+\t (00:00:02)         Host=HEROZHOU User=59427 Pid=21592 CPUs=12
+\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\FPX\Footprint\HEADER_6X1_2P54.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: F:/Cadence_learn/FPX/Footprint/HEADER_6X1_2P54.dra
+\i (00:00:03) trapsize 719
+\i (00:00:03) trapsize 750
+\i (00:00:03) trapsize 719
+\i (00:00:03) trapsize 743
 \i (00:00:03) generaledit 
-\i (00:00:22) 3d 
-\i (00:00:24) QtSignal 3DUniFilterDialog UniFilterOkButton clicked
-\i (00:00:26) generaledit 
-\i (00:00:39) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 1238 125 1238 170 1 1 +
-\i (00:00:39) QtSignal 0 "1168.46" "864.691" "709.341"
-\i (00:00:39) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 1238 125 1238 170 1 +
-\i (00:00:39) QtSignal 0 0 "1168.46" "864.691" "709.341"
-\i (00:00:40) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
-\i (00:00:42) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 49 536870912 false 1 1
-\i (00:00:42) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 51 536870912 false 1 3
-\i (00:00:43) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 49 536870912 false 1 1
-\i (00:00:46) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 49 536870912 false 1 1
-\i (00:00:48) QtSignal pcb3dViewer pcb3dViewer closed
-\i (00:00:56) exit 
-\e (00:00:56) Do you want to save the changes you made to HEADER_6X1_2P54.dra?
-\i (00:00:57) fillin no 
-\t (00:00:57)     Journal end - Fri Nov 17 17:38:42 2023
+\i (00:00:09) prepopup 2.8382 0.1142
+\i (00:00:16) padeditdb 
+\i (00:00:18) setwindow form.mini
+\i (00:00:18) FORM mini padlist C165H110 
+\i (00:00:19) FORM mini pad_stack_edit  
+\i (00:01:19) setwindow pcb
+\i (00:01:19) exit 
+\t (00:01:21)     Journal end - Sun Nov 19 14:08:27 2023

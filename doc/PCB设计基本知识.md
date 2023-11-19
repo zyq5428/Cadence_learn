@@ -299,6 +299,12 @@
 
 ![过孔间距要求.png](./assets/过孔间距要求.png)
 
+### 布线自动圆滑
+
+* route菜单中设置，需要先开启Productivity Toolbox
+
+![布线自动圆滑.png](./assets/布线自动圆滑.png)
+
 ### PCB设计之3W原则
 
 * 在PCB设计中为了减少线间串扰，应保证线间距足够大，当线中心间距不少于3倍线宽时，则可保持大部分电场不互相干扰，这就是3W原则。
@@ -353,6 +359,80 @@
     * $$ L < \frac{c}{8f\sqrt{DK}} \tag{缝合过孔} $$
     * 如间距为20密耳，根据上述等式，这适用于屏蔽高达43GHz的频率。
 * 这种专门用于阻挡电磁波传播的缝合过孔的间距要求与用于将波限制在PCB上的波导内的要求相同。
+
+## 丝印
+
+### 丝印大小设置
+
+* 参考网址：[利用Cadence Allegro强大的功能节省您调丝印的时间](https://www.mr-wu.cn/li-yong-cadence-allegro-qiang-da-de-gong-neng-jie-sheng-nin-tiao-si-yin-de-shi-jian/)
+
+* Text Setup的主要参数：
+    * Width：字符宽度
+    * Height：字符高度
+    * Line Space：字符行间距
+    * Photo Width：字符丝印线宽
+    * Char Space：字符字体间的间距
+    * text blk：字体编号
+
+![Text_Setup的主要参数.png](./assets/Text_Setup的主要参数.png)
+
+* 采用Edit->change功能，在Options中选中所需更改字体参数的class以及subclass，选中Text block，调整右边对应的block的大小即可
+
+* 嘉立创丝印工艺要求
+
+![嘉立创丝印工艺要求.png](./assets/嘉立创丝印工艺要求.png)
+
+* 字符宽高比1:6最合适的宽高比例，更利于生产，凡亿教育字号推荐字宽/字高尺寸为4/25mil、5/30mil、6/45mil
+* 吴川斌的设定如下，供给大家参考，（单位mm）：
+    * 对于元件位号丝印
+        * height:          1.000
+        * width:           0.625
+        * photoplot width: 0.150
+        * spacing:         0.250
+        * line spacing:    1.500
+    * 功能性文字说明字符
+        * （1）
+        * height:          1.200
+        * width:           0.750
+        * photoplot width: 0.150
+        * spacing:         0.300
+        * line spacing:    1.800
+        * （2）
+        * height:          1.600
+        * width:           1.000
+        * photoplot width: 0.150
+        * spacing:         0.400
+        * line spacing:    2.400
+* 其他人推荐的设定如下，供给大家参考，（单位mm）：
+    * 对于元件位号丝印
+        * height: 0.75---30mil
+        * width: 0.75---30mil
+        * line spacing: 0.15---6mil
+        * photoplot width: 0.15---6mil
+        * spacing: 0.15---6mil
+    * 功能性文字说明字符
+        * （1）
+        * height: 1.2--48mil
+        * width: 1.2---48mil
+        * line spacing: 1.2---48mil
+        * photoplot width: 0.15---6mil
+        * spacing: 0.3---12mil
+        * （2）
+        * height: 1.6---64mil
+        * width: 1---40mil
+        * line spacing: 2.4---96mil
+        * photoplot width: 0.15---6mil
+        * spacing: 0.4---16mil
+
+* 除了元件的位号信息，你还可以在板子上添加一些标注信息，如版本号，跳线功能说明，电路功能说明等等。
+    * 通过菜单“Add -> Text”添加丝印信息，在“Options”面板中设置Class为”Board Geometry“，subclass 可以为“Silkscreen_Top或Silkscreen_Bottom”,”Text block”设置好对应大小的字符位号，可以设置得比元件位号的丝印略大一些。
+
+## 泪滴
+
+* 泪滴参数配置
+
+![电泪滴参数配置入口.png](./assets/泪滴参数配置入口.png)
+![电泪滴参数配置.png](./assets/泪滴参数配置.png)
 
 ## 安全间距的要求
 

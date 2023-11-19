@@ -4,12 +4,12 @@
 (                                                                     )
 (    Drawing          : USB-C-SMD-16P.dra                             )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Sun Nov 19 16:06:42 2023                      )
+(    Date/Time        : Sun Nov 19 14:11:25 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Sun Nov 19 16:06:42 2023				Page     1
+Sun Nov 19 14:11:25 2023				Page     1
 
 
 ------ Pad Stack Refresh Options ------
@@ -45,20 +45,20 @@ PADPATH =  .
 
 ------ Pad Stack Refresh Messages ------
 
-'SMD_R30_114RC40_124'  pad stack refresh starting.
+'MEC_R65'  pad stack refresh starting.
 
-     'SMD_R30_114RC40_124'  pad stack refreshed successfully.
-     
-'SMD_R50_114RC60_124'  pad stack refresh starting.
-
-     'SMD_R50_114RC60_124'  pad stack refreshed successfully.
+     'MEC_R65'  pad stack refreshed successfully.
      
 'SLOT_OB60_170OB100_200'  pad stack refresh starting.
 
      'SLOT_OB60_170OB100_200'  pad stack refreshed successfully.
      
-'MEC_R65'  pad stack refresh starting.
+'SMD_R50_114RC60_124'  pad stack refresh starting.
 
-     'MEC_R65'  pad stack refreshed successfully.
+     'SMD_R50_114RC60_124'  pad stack refreshed successfully.
+     
+'SMD_R30_114RC40_124'  pad stack refresh starting.
+
+     'SMD_R30_114RC40_124'  pad stack refreshed successfully.
      
 Completed refreshing all pad stacks successfully.

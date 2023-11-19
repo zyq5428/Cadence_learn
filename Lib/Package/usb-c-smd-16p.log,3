@@ -4,20 +4,20 @@
 (                                                                     )
 (    Drawing          : USB-C-SMD-16P.dra                             )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Wed Nov 15 10:06:54 2023                      )
+(    Date/Time        : Sun Nov 19 14:12:10 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
-    Directory = D:/Cadence_learn/Lib/Package
+    Directory = F:/Cadence_learn/Lib/Package
     Name      = usb-c-smd-16p.psm
-    User      = Administrator
-    Machine   = LTSC-20211101AY
+    User      = 59427
+    Machine   = HEROZHOU
 
 
-创建 Symbol 已开始。
+Create symbol started.
  
 
-创建 Symbol 完成。
+Create symbol completed.
 
