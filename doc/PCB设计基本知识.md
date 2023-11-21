@@ -434,6 +434,105 @@
 ![电泪滴参数配置入口.png](./assets/泪滴参数配置入口.png)
 ![电泪滴参数配置.png](./assets/泪滴参数配置.png)
 
+## 生成文件的输出
+
+### Gerber文件的输出
+
+* 第一步、需要先生成钻孔文件
+    * 参考网址：[cadence SPB17.4 - allegro - 出钻孔文件](https://lostspeed.blog.csdn.net/article/details/124595220)
+    * 执行菜单命令"Manufacture"->"NC"->"Drill Customization"，点击”Auto generate symbools"按钮生成符号。
+    * 提取钻孔表
+    * 设置钻孔输出的参数
+    * 生成钻孔文件
+* 第二步、设置每个层添加的子类
+    * 参考网址：[cadence SPB17.4 - allegro - 出Gerber文件](https://lostspeed.blog.csdn.net/article/details/1246515060)
+    * gerber文件需要包含的元素：
+        * 电气走线(每层的电气连线，包括铺铜)
+        * 钢网
+        * 阻焊
+        * 钻孔
+        * 丝印(元件外形 ，位号, 手工添加的提示信息)
+        * 装配图
+    * gerber文件 - 顶层
+        * 板框(顶层) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 走线(顶层) - ETCH/TOP
+        * 引脚(顶层) - PIN/TOP
+        * 过孔(顶层) - VIA CLASS/TOP
+    * gerber文件 - 中间层，2层板以上，就有中间层。
+        * 板框(中间第N层) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 走线(中间第N层) - ETCH/LayerN
+        * 引脚(中间第N层) - PIN/LayerN
+        * 过孔(中间第N层) - VIA CLASS/LayerN
+        * 可以看出，中间层的gerber元素要求和其他层也是一样的。
+    * gerber文件 - 底层
+        * 板框(底层) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 走线(底层) - ETCH/BOTTOM
+        * 引脚(底层) - PIN/BOTTOM
+        * 过孔(底层) - VIA CLASS/BOTTOM
+    * 现在所有电气连线层的光绘元素都添加完了。可以看出每一层电气连线光绘元素都有板框，走线，引脚，过孔这4项元素。有了这4项元素，就可以将有电气关系的光绘层描述清楚。
+        * 丝印层 - 顶层
+        * 板框(顶层) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 板子丝印(顶层) - BOARD GEOMETRY/SILKSCREEN_TOP
+        * 元件丝印(顶层) - PACKAGE GEOMETRY/SILKSCREEN_TOP
+        * 元件位号(顶层) - REF DES/SILKSCREEN_TOP
+    * 丝印层 - 底层
+        * 板框(底层) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 板子丝印(底层) - BOARD GEOMETRY/SILKSCREEN_BOTTOM
+        * 元件丝印(底层) - PACKAGE GEOMETRY/SILKSCREEN_BOTTOM
+        * 元件位号(底层) - REF DES/SILKSCREEN_BOTTOM
+    * 阻焊 - 顶层
+        * 板框(顶层) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 板子阻焊(顶层) - BOARD GEOMETRY/SOLDERMASK_TOP
+        * 元件阻焊(顶层) - PACKAGE GEOMETRY/SOLDERMASK_TOP
+        * 引脚阻焊(顶层) - PIN/SOLDERMASK_TOP
+        * 过孔阻焊(顶层) - VIA CLASS/SOLDERMASK_TOP
+    * 阻焊 - 底层
+        * 板框(底层) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 板子阻焊(底层) - BOARD GEOMETRY/SOLDERMASK_BOTTOM
+        * 元件阻焊(底层) - PACKAGE GEOMETRY/SOLDERMASK_BOTTOM
+        * 引脚阻焊(底层) - PIN/SOLDERMASK_BOTTOM
+        * 过孔阻焊(底层) - VIA CLASS/SOLDERMASK_BOTTOM
+    * 钢网 - 顶层
+        * 板框(顶层) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 元件钢网(顶层) - PACKAGE GEOMETRY/PASTEMASK_TOP
+        * 引脚钢网(顶层) - PIN/PASTEMASK_TOP
+    * 钢网 - 底层
+        * 板框(底层) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 元件钢网(底层) - PACKAGE GEOMETRY/PASTEMASK_BOTTOM
+        * 引脚钢网(底层) - PIN/PASTEMASK_BOTTOM
+    * 钻孔文件，要添加的钻孔在机械层
+        * 板框(钻孔文件) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 钻孔统计表(钻孔文件) - MANUFACTURING/NCLEGEND-x-x
+        * 钻孔表(钻孔文件) - MANUFACTURING/NCDRILL_LEGEND
+        * 钻孔符号(钻孔文件) - MANUFACTURING/NCDRILL_FIGURE
+    * 装配文件是为了在PCB生产调试器件，方便查看文件，或者查询文件信息，将PCB设计文件转换成PDF文件。
+    * 装配文件 - 顶层（ADT）
+        * 板框(顶层) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 板子丝印(顶层) - BOARD GEOMETRY/SILKSCREEN_TOP
+        * 元件丝印(顶层) - PACKAGE GEOMETRY/SILKSCREEN_TOP
+        * 元件位号(顶层) - REF DES/SILKSCREEN_TOP
+        * 引脚(顶层) - PIN/TOP
+        * 可以看出顶层丝印 + 顶层引脚，就是顶层装配层。
+    * 装配文件 - 底层（ADB）
+        * 板框(底层) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 板子丝印(底层) - BOARD GEOMETRY/SILKSCREEN_BOTTOM
+        * 元件丝印(底层) - PACKAGE GEOMETRY/SILKSCREEN_BOTTOM
+        * 元件位号(底层) - REF DES/SILKSCREEN_BOTTOM
+        * 引脚(底层) - PIN/BOTTOM
+        * 可以看出底层丝印 + 底层引脚，就是底层装配层。
+
+### IPC文件的输出
+
+* IPC网表可以给厂家核对，进行一些常规的开短路问头
+    * "File"->"Export"->"IPC 356"
+
+### 贴片坐标文件的输出
+* "File"->"Export"->"Olacement",选择"Body center"选项
+
+### CAM350查看
+
+* 参考网址：[CAM350 V14.6 检查gerber文件](https://blog.csdn.net/LostSpeed/article/details/124668177)
+
 ## 安全间距的要求
 
 ### PCB Layout 爬电距离与电气间隙的确定方法
