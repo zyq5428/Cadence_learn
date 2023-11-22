@@ -452,7 +452,8 @@
         * 阻焊
         * 钻孔
         * 丝印(元件外形 ，位号, 手工添加的提示信息)
-        * 装配图
+        * 板框
+        * 装配图（非必须）
     * gerber文件 - 顶层
         * 板框(顶层) - BOARD GEOMETRY/DESGIGN_OUTLINE
         * 走线(顶层) - ETCH/TOP
@@ -501,25 +502,41 @@
         * 元件钢网(底层) - PACKAGE GEOMETRY/PASTEMASK_BOTTOM
         * 引脚钢网(底层) - PIN/PASTEMASK_BOTTOM
     * 钻孔文件，要添加的钻孔在机械层
+        * 板框尺寸(钻孔文件) - BOARD GEOMETRY/DIMENSION
         * 板框(钻孔文件) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 图纸框(钻孔文件) - DRAWING FORMAT/OUTLINE
         * 钻孔统计表(钻孔文件) - MANUFACTURING/NCLEGEND-x-x
         * 钻孔表(钻孔文件) - MANUFACTURING/NCDRILL_LEGEND
         * 钻孔符号(钻孔文件) - MANUFACTURING/NCDRILL_FIGURE
+    * 板框
+        * 板框 - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 板框尺寸 - BOARD GEOMETRY/DIMENSION
     * 装配文件是为了在PCB生产调试器件，方便查看文件，或者查询文件信息，将PCB设计文件转换成PDF文件。
-    * 装配文件 - 顶层（ADT）
+    * 装配文件 - 顶层（PDF_A_TOP）
         * 板框(顶层) - BOARD GEOMETRY/DESGIGN_OUTLINE
         * 板子丝印(顶层) - BOARD GEOMETRY/SILKSCREEN_TOP
         * 元件丝印(顶层) - PACKAGE GEOMETRY/SILKSCREEN_TOP
         * 元件位号(顶层) - REF DES/SILKSCREEN_TOP
         * 引脚(顶层) - PIN/TOP
         * 可以看出顶层丝印 + 顶层引脚，就是顶层装配层。
-    * 装配文件 - 底层（ADB）
+    * 装配文件 - 底层（PDF_A_BOTTOM）
         * 板框(底层) - BOARD GEOMETRY/DESGIGN_OUTLINE
         * 板子丝印(底层) - BOARD GEOMETRY/SILKSCREEN_BOTTOM
         * 元件丝印(底层) - PACKAGE GEOMETRY/SILKSCREEN_BOTTOM
         * 元件位号(底层) - REF DES/SILKSCREEN_BOTTOM
         * 引脚(底层) - PIN/BOTTOM
         * 可以看出底层丝印 + 底层引脚，就是底层装配层。
+    * Assembly - 顶层（ASSEMBLY_TOP）
+        * 板框(顶层) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 板子Assembly(顶层) - BOARD GEOMETRY/ASSEMBLY_TOP
+        * 元件Assembly(顶层) - PACKAGE GEOMETRY/ASSEMBLY_TOP
+        * 元件位号(顶层) - REF DES/ASSEMBLY_TOP
+    * Assembly - 底层（ASSEMBLY_BOTTOM）
+        * 板框(底层) - BOARD GEOMETRY/DESGIGN_OUTLINE
+        * 板子Assembly(底层) - BOARD GEOMETRY/ASSEMBLY_BOTTOM
+        * 元件Assembly(底层) - PACKAGE GEOMETRY/ASSEMBLY_BOTTOM
+        * 元件位号(底层) - REF DES/ASSEMBLY_BOTTOM
+* 需要输出Gerber的未定义的线宽都是需要设置一个默认线宽的（4mil或者6mil），其他不是Gerber必须的可以不定义线宽，如装配文件，Assembly层
 
 ### IPC文件的输出
 
@@ -532,6 +549,37 @@
 ### CAM350查看
 
 * 参考网址：[CAM350 V14.6 检查gerber文件](https://blog.csdn.net/LostSpeed/article/details/124668177)
+
+## 工艺边 MARK点及定位孔设计
+
+### 工艺边
+
+* 工艺边（工作边），它目的是为了SMT时留出轨道传输位置、放置拼版Mark及定位孔。
+* 工艺边一般宽5-10mm。想节省一点pcb成本，取消工艺边或者把工艺边设置为3mm，是不可取的（不建议）。
+* 那么在什么情况下可以取消工艺边呢？当结构外形是中规中矩长方形或者正方形并且贴片元件距离边框线有5mm以上的安全距离，便于轨道传输就可以取消工艺边。
+* Gerber文件可在边框层绘制工艺边及定位孔和Mark点指示，CAM工程见此信息会按规范处理好文件。
+
+![工艺边说明.png](./assets/工艺边说明.png)
+
+### Mark点
+
+* MARK点大小一般为1mm焊盘，2mm阻焊，露铜上锡，板内有的情况下，工艺边可加可不加，一般要3个，对角不要对称放置。
+
+### 定位孔
+
+* 板厂生产时，成型和测试需要做定位。在工艺边添加专用的定位孔，做出的外形相对较标准，做定位也比较方便。因此工艺边会添加4-5个直径2.0-4.0mm之间的定位孔（无铜孔），以直径3mm最常见，最好用，也可以2mm，无影响。
+
+## 拼板
+
+### 邮票孔拼板
+
+* 邮票孔大小：建议5至8个直径0.60mm的无铜孔为一组（不建议邮票孔个数少于5）
+* 邮票孔间隙：孔边到孔边0.35-0.4MM的间隙，至少要保证0.3mm的间隙以保证有足够的连接强度（板越薄需适当加大间隙）
+* 邮票孔组数：至少需要相对称的2组（限长宽在30MM内），依实际板大小及器件重量调整组数，建议每隔50－60MM增加一组邮票孔
+* 邮票孔位置：加在板框线的中心线或伸到板内1/3处 ，如板边有过孔、线路、安装孔及伸出元器件尽量避开
+* 拼板间隙：常规间隙是1.6MM或2MM，最小需要1.2MM的间隙（低于这个数值会引起邮票孔连孔断钻头或钻歪）
+
+![邮票孔拼板.png](./assets/邮票孔拼板.png)
 
 ## 安全间距的要求
 

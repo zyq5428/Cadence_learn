@@ -1,6 +1,6 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    Downrev Design                                                   )
+(    CREATE SYMBOL                                                    )
 (                                                                     )
 (    Drawing          : MARK_HOLE_2D0.dra                             )
 (    Software Version : 17.4S035                                      )
@@ -9,6 +9,15 @@
 (---------------------------------------------------------------------)
 
 
+Create Symbol of type: MECHANICAL
+    Directory = D:/Cadence_learn/Lib/Package
+    Name      = mark_hole_2d0.bsm
+    User      = Administrator
+    Machine   = LTSC-20211101AY
 
-Changes made to design for 17.2 compatibility.
+
+Create symbol started.
+ 
+
+Create symbol completed.
 
