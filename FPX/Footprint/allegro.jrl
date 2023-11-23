@@ -1,21 +1,42 @@
 \t (00:00:02) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Sun Nov 19 14:07:08 2023
-\t (00:00:02)         Host=HEROZHOU User=59427 Pid=21592 CPUs=12
-\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\FPX\Footprint\HEADER_6X1_2P54.dra
+\t (00:00:02)     Journal start - Thu Nov 23 17:26:52 2023
+\t (00:00:02)         Host=LTSC-20211101AY User=Administrator Pid=10424 CPUs=8
+\t (00:00:02) CmdLine= D:\Cadence\Cadence\SPB_17.4\tools\bin\allegro.exe
 \t (00:00:02) 
    (00:00:02) Loading axlcore.cxt 
-\t (00:00:02) Opening existing design...
-\d (00:00:02) Design opened: F:/Cadence_learn/FPX/Footprint/HEADER_6X1_2P54.dra
-\i (00:00:03) trapsize 719
-\i (00:00:03) trapsize 750
-\i (00:00:03) trapsize 719
-\i (00:00:03) trapsize 743
-\i (00:00:03) generaledit 
-\i (00:00:09) prepopup 2.8382 0.1142
-\i (00:00:16) padeditdb 
-\i (00:00:18) setwindow form.mini
-\i (00:00:18) FORM mini padlist C165H110 
-\i (00:00:19) FORM mini pad_stack_edit  
-\i (00:01:19) setwindow pcb
-\i (00:01:19) exit 
-\t (00:01:21)     Journal end - Sun Nov 19 14:08:27 2023
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: D:/Cadence_learn/FPX/Footprint/HEADER_RA_4X2_2P54.dra
+\i (00:00:04) trapsize 626
+\i (00:00:04) trapsize 643
+\i (00:00:04) trapsize 626
+\i (00:00:04) trapsize 638
+\i (00:00:04) trapsize 1148
+\i (00:00:05) generaledit 
+\i (00:00:39) enved 
+\i (00:00:40) setwindow form.prfedit
+\i (00:00:40) FORM prfedit treelist  My_favorites 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) generaledit 
+\i (00:00:42) setwindow form.prfedit
+\i (00:00:42) FORM prfedit treelist  Paths 
+\i (00:00:42) FORM prfedit treelist  Library Paths 
+\i (00:00:46) FORM prfedit psmpath  
+\i (00:01:05) FORM prfedit padpath  
+\i (00:01:22) FORM prfedit psmpath  
+\i (00:02:11) FORM prfedit treelist  UI 
+\i (00:02:13) FORM prfedit treelist  Padstack_editor UI 
+\i (00:03:13) FORM prfedit padstack_nowarning_display YES 
+\i (00:03:14) FORM prfedit padstack_nowarning_drill YES 
+\i (00:03:15) FORM prfedit done  
+\i (00:03:21) setwindow pcb
+\i (00:03:21) enved 
+\i (00:03:21) generaledit 
+\i (00:03:32) setwindow form.prfedit
+\i (00:03:32) FORM prfedit treelist  Paths 
+\i (00:03:34) FORM prfedit treelist  Library Paths 
+\i (00:03:37) FORM prfedit psmpath  
+\i (00:03:39) FORM prfedit padpath  
+\i (00:03:43) FORM prfedit cancel  
+\i (00:03:44) setwindow pcb
+\i (00:03:44) exit 
+\t (00:03:45)     Journal end - Thu Nov 23 17:30:34 2023

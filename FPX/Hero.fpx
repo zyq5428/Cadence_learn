@@ -1,0 +1,4 @@
+FPX V2021 Component Libfile
+Package Type	Footprint Data	Footprint Name	Physical Description	Case Code	Manufacturer	Part Number	Logical Description	Mounting Type	Datasheet	Part Status	Footprint Date	Comments
+6	cc="440002 0 0 0" cd="6121 +0.55 0.95,1.05 0.45,0.55 0.15,0.3 0.15,0.3"	CAPC100X50X55L22	Capacitor, Chip; 1.00 mm L X 0.50 mm W X 0.55 mm H body					Surface Mount		Active	11/23/2023 5:16:00 PM	
+6	cc="440002 9 0 0" cd="2121 +1.4 3,3.4 1.4,1.8 0.25,0.75"	RESC320X160X140L50	Resistor, Chip; 3.20 mm L X 1.60 mm W X 1.40 mm H body					Surface Mount		Active	11/23/2023 5:58:00 PM	

@@ -1,26 +1,36 @@
 \t (00:00:02) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Sat Nov 18 23:44:41 2023
-\t (00:00:02)         Host=HEROZHOU User=59427 Pid=23556 CPUs=12
-\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\FPX\Footprint\HEADER_RA_4X2_2P54.dra
+\t (00:00:02)     Journal start - Thu Nov 23 16:52:17 2023
+\t (00:00:02)         Host=LTSC-20211101AY User=Administrator Pid=13452 CPUs=8
+\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe D:\Cadence_learn\FPX\Footprint\CAPC100X50X56L25N.dra
 \t (00:00:02) 
    (00:00:02) Loading axlcore.cxt 
-\t (00:00:02) Opening existing design...
-\d (00:00:02) Design opened: F:/Cadence_learn/FPX/Footprint/HEADER_RA_4X2_2P54.dra
-\i (00:00:02) trapsize 736
-\i (00:00:02) trapsize 767
-\i (00:00:03) trapsize 736
-\i (00:00:03) trapsize 737
-\i (00:00:03) generaledit 
-\i (00:00:06) step pkg map 
-\i (00:00:07) fillin yes 
-\i (00:00:09) setwindow form.pkgmap3d
-\i (00:00:09) FORM pkgmap3d save_current  
-\i (00:00:10) FORM pkgmap3d done  
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: D:/Cadence_learn/FPX/Footprint/CAPC100X50X56L25N.dra
+\i (00:00:04) trapsize 133
+\i (00:00:04) trapsize 137
+\i (00:00:04) trapsize 133
+\i (00:00:04) trapsize 136
+\i (00:00:04) trapsize 239
+\i (00:00:05) generaledit 
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 0.3893 -0.0333
+\i (00:00:09) trapsize 119
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 0.3893 -0.0333
+\i (00:00:09) trapsize 60
+\i (00:00:10) zoom out 1 
 \i (00:00:10) setwindow pcb
-\i (00:00:10) generaledit 
-\i (00:00:12) save 
-\i (00:00:13) fillin yes 
-\t (00:00:13) Symbol 'header_ra_4x2_2p54.psm' created.
-\i (00:00:13) generaledit 
-\i (00:00:17) exit 
-\t (00:00:20)     Journal end - Sat Nov 18 23:44:59 2023
+\i (00:00:10) zoom out 0.3893 -0.0333
+\i (00:00:10) trapsize 119
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 0.3894 -0.0332
+\i (00:00:10) trapsize 239
+\i (00:00:10) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 0.3895 -0.0332
+\i (00:00:11) trapsize 478
+\i (00:00:15) exit 
+\t (00:00:15)     Journal end - Thu Nov 23 16:52:30 2023

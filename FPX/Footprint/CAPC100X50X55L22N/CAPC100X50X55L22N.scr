@@ -1,10 +1,10 @@
 # Allegro Script
-# File: D:\Cadence_learn\FPX\Footprint\RESC320X160X140L50N.scr
+# File: D:\Cadence_learn\FPX\Footprint\CAPC100X50X55L22N\CAPC100X50X55L22N.scr
 version 17.4
 
 setwindow pcb
 new
-newdrawfillin "RESC320X160X140L50N.dra" "Package Symbol"
+newdrawfillin "CAPC100X50X55L22N.dra" "Package Symbol"
 
 Color
 setwindow Form.cvf_main
@@ -29,11 +29,11 @@ FORM prmedit design
 FORM prmedit units Millimeter
 FORM prmedit accuracy 4
 FORM prmedit size Other
-FORM prmedit width 14.5
-FORM prmedit height 12.2
+FORM prmedit width 12
+FORM prmedit height 11.1
 FORM prmedit Apply
-FORM prmedit x -7.3
-FORM prmedit y -6.1
+FORM prmedit x -6
+FORM prmedit y -5.5
 FORM prmedit done
 setwindow pcb
 
@@ -44,7 +44,7 @@ Form mini rect_or_polar Rectangular
 Form mini x_count 1
 Form mini y_count 1
 Form mini rotate_pin 0.0
-FORM mini pad_name r116_181r20
+FORM mini pad_name r53_58r13
 FORM mini next_pin_number 1
 rotate
 iangle 180
@@ -52,11 +52,11 @@ FORM mini pintype_mechanical NO
 FORM mini offsetx 0
 FORM mini offsety 0
 setwindow pcb
-pick -1.475 0
+pick -0.482 0
 setwindow Form.mini
 iangle -180
 setwindow pcb
-pick 1.475 0
+pick 0.482 0
 done
 
 # Graphics
@@ -69,11 +69,11 @@ FORM mini class PACKAGE GEOMETRY
 FORM mini subclass DISPLAY_TOP
 FORM mini line_width 0.025
 setwindow pcb
-pick 1.1 -0.8
-pick 1.1 0.8
-pick 1.6 0.8
-pick 1.6 -0.8
-pick 1.1 -0.8
+pick 0.276 -0.25
+pick 0.276 0.25
+pick 0.5 0.25
+pick 0.5 -0.25
+pick 0.276 -0.25
 done
 
 add line
@@ -83,11 +83,37 @@ FORM mini class PACKAGE GEOMETRY
 FORM mini subclass DISPLAY_TOP
 FORM mini line_width 0.025
 setwindow pcb
-pick -1.1 0.8
-pick -1.1 -0.8
-pick -1.6 -0.8
-pick -1.6 0.8
-pick -1.1 0.8
+pick -0.275 0.25
+pick -0.275 -0.25
+pick -0.499 -0.25
+pick -0.499 0.25
+pick -0.275 0.25
+done
+
+add line
+setwindow Form.mini
+FORM mini lock_direction Off
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.12
+setwindow pcb
+pick 0.31 -0.47
+pick 0.93 -0.47
+pick 0.93 0.47
+pick 0.31 0.47
+done
+
+add line
+setwindow Form.mini
+FORM mini lock_direction Off
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.12
+setwindow pcb
+pick -0.31 -0.47
+pick -0.93 -0.47
+pick -0.93 0.47
+pick -0.31 0.47
 done
 
 shape add
@@ -98,11 +124,11 @@ FORM mini dyns_fill_type Static solid
 FORM mini dyns_grid None
 FORM mini dyns_lock_mode Line
 setwindow pcb
-pick -2.258 -1.108
-pick -2.258 1.108
-pick 2.258 1.108
-pick 2.258 -1.108
-pick -2.258 -1.108
+pick -0.99 -0.53
+pick -0.99 0.53
+pick 0.99 0.53
+pick 0.99 -0.53
+pick -0.99 -0.53
 done
 
 shape add
@@ -113,11 +139,11 @@ FORM mini dyns_fill_type Static solid
 FORM mini dyns_grid None
 FORM mini dyns_lock_mode Line
 setwindow pcb
-pick -2.258 -1.108
-pick -2.258 1.108
-pick 2.258 1.108
-pick 2.258 -1.108
-pick -2.258 -1.108
+pick -0.99 -0.53
+pick -0.99 0.53
+pick 0.99 0.53
+pick 0.99 -0.53
+pick -0.99 -0.53
 done
 
 add line
@@ -127,11 +153,11 @@ FORM mini class PACKAGE GEOMETRY
 FORM mini subclass ASSEMBLY_TOP
 FORM mini line_width 0.12
 setwindow pcb
-pick -1.7 -0.9
-pick -1.7 0.9
-pick 1.7 0.9
-pick 1.7 -0.9
-pick -1.7 -0.9
+pick -0.525 -0.275
+pick -0.525 0.275
+pick 0.525 0.275
+pick 0.525 -0.275
+pick -0.525 -0.275
 done
 
 add line
@@ -141,33 +167,11 @@ FORM mini class PACKAGE GEOMETRY
 FORM mini subclass DISPLAY_TOP
 FORM mini line_width 0.025
 setwindow pcb
-pick -1.6 -0.8
-pick -1.6 0.8
-pick 1.6 0.8
-pick 1.6 -0.8
-pick -1.6 -0.8
-done
-
-add line
-setwindow Form.mini
-FORM mini lock_direction Off
-FORM mini class PACKAGE GEOMETRY
-FORM mini subclass SILKSCREEN_TOP
-FORM mini line_width 0.12
-setwindow pcb
-pick -0.713 0.96
-pick 0.713 0.96
-done
-
-add line
-setwindow Form.mini
-FORM mini lock_direction Off
-FORM mini class PACKAGE GEOMETRY
-FORM mini subclass SILKSCREEN_TOP
-FORM mini line_width 0.12
-setwindow pcb
-pick -0.713 -0.96
-pick 0.713 -0.96
+pick -0.5 -0.25
+pick -0.5 0.25
+pick 0.5 0.25
+pick 0.5 -0.25
+pick -0.5 -0.25
 done
 
 add circle
@@ -177,7 +181,7 @@ FORM mini subclass PLACE_BOUND_TOP
 FORM mini line_width 0.05
 setwindow pcb
 pick 0 0
-pick 0.25 0
+pick 0.208 0
 done
 
 add line
@@ -187,8 +191,8 @@ FORM mini class PACKAGE GEOMETRY
 FORM mini subclass PLACE_BOUND_TOP
 FORM mini line_width 0.05
 setwindow pcb
-pick 0.35 0
-pick -0.35 0
+pick 0.278 0
+pick -0.278 0
 done
 
 add line
@@ -198,8 +202,8 @@ FORM mini class PACKAGE GEOMETRY
 FORM mini subclass PLACE_BOUND_TOP
 FORM mini line_width 0.05
 setwindow pcb
-pick 0 0.35
-pick 0 -0.35
+pick 0 0.278
+pick 0 -0.278
 done
 
 unset addline_nomerge
@@ -209,7 +213,7 @@ setwindow pcb
 package_height
 pick grid 0 0
 setwindow Form.mini
-FORM mini height_max 1.4mm
+FORM mini height_max 0.55mm
 setwindow pcb
 done
 
@@ -234,7 +238,7 @@ FORM findname done
 setwindow Form.editprop1
 FORM editprop1 properties Description
 setwindow Form.editprop2
-FORM editprop2 Description ele_prop_value "Resistor, Chip; 3.20 mm L X 1.60 mm W X 1.40 mm H body"
+FORM editprop2 Description ele_prop_value "Capacitor, Chip; 1.00 mm L X 0.50 mm W X 0.55 mm H body"
 setwindow Form.editprop1
 FORM editprop1 done
 
