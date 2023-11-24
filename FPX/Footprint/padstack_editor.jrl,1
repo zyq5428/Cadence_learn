@@ -1,13 +1,13 @@
-\t (00:00:01) padstack_editor 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Mon Jul 17 23:26:45 2023
-\t (00:00:01)         Host=HEROZHOU User=59427 Pid=13360 CPUs=12
-\t (00:00:01) CmdLine= padstack_editor -s R80_66R16.SCR
-\t (00:00:01) 
-\d (00:00:01) QtSignal MainWindow New triggered
+\t (00:00:00) padstack_editor 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Nov 24 16:16:03 2023
+\t (00:00:00)         Host=LTSC-20211101AY User=Administrator Pid=11556 CPUs=8
+\t (00:00:00) CmdLine= padstack_editor -s R113_177R20.SCR
+\t (00:00:00) 
+\d (00:00:00) QtSignal MainWindow New triggered
 \d (00:00:01) QtSignal fileNewDialog dataCombo CurrentIndexChanged "SMD Pin"
 \d (00:00:01) QtSignal fileNewDialog dataCombo activated "SMD Pin"
 \d (00:00:01) QtSignal fileNewDialog browse clicked
-\d (00:00:01) QtFillin "r80_66r16.pad"
+\d (00:00:01) QtFillin "r113_177r20.pad"
 \d (00:00:01) QtSignal fileNewDialog OK clicked
 \d (00:00:01) QtSignal MainWindow Units CurrentIndexChanged Millimeter
 \d (00:00:01) QtFillin Yes
@@ -17,9 +17,9 @@
 \d (00:00:01) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
 \d (00:00:01) QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged "Rounded rectangle"
 \d (00:00:01) QtSignal GuidedDesignLayersTab PadShape activated "Rounded rectangle"
-\d (00:00:01) QtSignal GuidedDesignLayersTab PadWidth editingFinished "0.805"
-\d (00:00:01) QtSignal GuidedDesignLayersTab PadHeight editingFinished "0.668"
-\d (00:00:01) QtSignal GuidedDesignLayersTab PadRadius editingFinished "0.167"
+\d (00:00:01) QtSignal GuidedDesignLayersTab PadWidth editingFinished "1.131"
+\d (00:00:01) QtSignal GuidedDesignLayersTab PadHeight editingFinished "1.77"
+\d (00:00:01) QtSignal GuidedDesignLayersTab PadRadius editingFinished "0.2"
 \d (00:00:01) QtSignal GuidedDesignLayersTab llCorner clicked true
 \d (00:00:01) QtSignal GuidedDesignLayersTab lrCorner clicked true
 \d (00:00:01) QtSignal GuidedDesignLayersTab ulCorner clicked true
@@ -27,9 +27,9 @@
 \d (00:00:01) QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad 0 1
 \d (00:00:01) QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged "Rounded rectangle"
 \d (00:00:01) QtSignal GuidedMaskLayersTab PadShape activated "Rounded rectangle"
-\d (00:00:01) QtSignal GuidedMaskLayersTab PadWidth editingFinished "0.805"
-\d (00:00:01) QtSignal GuidedMaskLayersTab PadHeight editingFinished "0.668"
-\d (00:00:01) QtSignal GuidedMaskLayersTab PadRadius editingFinished "0.167"
+\d (00:00:01) QtSignal GuidedMaskLayersTab PadWidth editingFinished "1.131"
+\d (00:00:01) QtSignal GuidedMaskLayersTab PadHeight editingFinished "1.77"
+\d (00:00:01) QtSignal GuidedMaskLayersTab PadRadius editingFinished "0.2"
 \d (00:00:01) QtSignal GuidedMaskLayersTab llCorner clicked true
 \d (00:00:01) QtSignal GuidedMaskLayersTab lrCorner clicked true
 \d (00:00:01) QtSignal GuidedMaskLayersTab ulCorner clicked true
@@ -37,9 +37,9 @@
 \d (00:00:01) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
 \d (00:00:01) QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged "Rounded rectangle"
 \d (00:00:01) QtSignal GuidedMaskLayersTab PadShape activated "Rounded rectangle"
-\d (00:00:01) QtSignal GuidedMaskLayersTab PadWidth editingFinished "0.805"
-\d (00:00:01) QtSignal GuidedMaskLayersTab PadHeight editingFinished "0.668"
-\d (00:00:01) QtSignal GuidedMaskLayersTab PadRadius editingFinished "0.167"
+\d (00:00:01) QtSignal GuidedMaskLayersTab PadWidth editingFinished "1.131"
+\d (00:00:01) QtSignal GuidedMaskLayersTab PadHeight editingFinished "1.77"
+\d (00:00:01) QtSignal GuidedMaskLayersTab PadRadius editingFinished "0.2"
 \d (00:00:01) QtSignal GuidedMaskLayersTab llCorner clicked true
 \d (00:00:01) QtSignal GuidedMaskLayersTab lrCorner clicked true
 \d (00:00:01) QtSignal GuidedMaskLayersTab ulCorner clicked true
@@ -47,4 +47,4 @@
 \d (00:00:01) QtSignal OptionsTab SuppressPadsOption clicked true
 \d (00:00:01) QtSignal MainWindow Save triggered
 \d (00:00:01) QtSignal MainWindow Exit triggered
-\t (00:00:01)     Journal end - Mon Jul 17 23:26:46 2023
+\t (00:00:01)     Journal end - Fri Nov 24 16:16:03 2023

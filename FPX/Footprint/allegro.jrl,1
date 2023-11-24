@@ -1,36 +1,27 @@
 \t (00:00:02) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Thu Nov 23 16:52:17 2023
-\t (00:00:02)         Host=LTSC-20211101AY User=Administrator Pid=13452 CPUs=8
-\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe D:\Cadence_learn\FPX\Footprint\CAPC100X50X56L25N.dra
+\t (00:00:02)     Journal start - Fri Nov 24 16:18:14 2023
+\t (00:00:02)         Host=LTSC-20211101AY User=Administrator Pid=13828 CPUs=8
+\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe D:\Cadence_learn\FPX\Footprint\RESC320X160X65L50N.dra
 \t (00:00:02) 
    (00:00:02) Loading axlcore.cxt 
 \t (00:00:04) Opening existing design...
-\d (00:00:04) Design opened: D:/Cadence_learn/FPX/Footprint/CAPC100X50X56L25N.dra
-\i (00:00:04) trapsize 133
-\i (00:00:04) trapsize 137
-\i (00:00:04) trapsize 133
-\i (00:00:04) trapsize 136
-\i (00:00:04) trapsize 239
+\d (00:00:04) Design opened: D:/Cadence_learn/FPX/Footprint/RESC320X160X65L50N.dra
+\i (00:00:04) trapsize 177
+\i (00:00:04) trapsize 182
+\i (00:00:04) trapsize 177
+\i (00:00:04) trapsize 181
+\i (00:00:04) trapsize 186
 \i (00:00:05) generaledit 
-\i (00:00:09) zoom in 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom in 0.3893 -0.0333
-\i (00:00:09) trapsize 119
-\i (00:00:09) zoom in 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom in 0.3893 -0.0333
-\i (00:00:09) trapsize 60
-\i (00:00:10) zoom out 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom out 0.3893 -0.0333
-\i (00:00:10) trapsize 119
-\i (00:00:10) zoom out 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom out 0.3894 -0.0332
-\i (00:00:10) trapsize 239
-\i (00:00:10) zoom out 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom out 0.3895 -0.0332
-\i (00:00:11) trapsize 478
-\i (00:00:15) exit 
-\t (00:00:15)     Journal end - Thu Nov 23 16:52:30 2023
+\i (00:00:31) step pkg map 
+\i (00:00:32) fillin yes 
+\i (00:00:36) setwindow form.pkgmap3d
+\i (00:00:36) FORM pkgmap3d save_current  
+\i (00:00:37) FORM pkgmap3d done  
+\i (00:00:37) setwindow pcb
+\i (00:00:37) generaledit 
+\i (00:00:43) save 
+\i (00:00:44) fillin yes 
+\t (00:00:45) Symbol 'resc320x160x65l50n.psm' created.
+\i (00:00:45) generaledit 
+\i (00:00:48) exit 
+\t (00:00:48)     Journal end - Fri Nov 24 16:19:00 2023
