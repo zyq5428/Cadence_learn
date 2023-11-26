@@ -2,19 +2,19 @@
 (                                                                     )
 (    Refresh Padstack                                                 )
 (                                                                     )
-(    Drawing          : USB-C-SMD-16P.dra                             )
+(    Drawing          : MTGP240H140.dra                               )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Sun Nov 19 14:11:25 2023                      )
+(    Date/Time        : Sun Nov 26 22:11:09 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Sun Nov 19 14:11:25 2023				Page     1
+Sun Nov 26 22:11:09 2023				Page     1
 
 
 ------ Pad Stack Refresh Options ------
 
-Input design  = 'F:/Cadence_learn/Lib/Package/USB-C-SMD-16P.dra'
+Input design  = 'F:/Cadence_learn/Lib/Package/MTGP240H140.dra'
 Output design = ''
 Reset symbol text and size locations   = 'NO'
 
@@ -45,20 +45,8 @@ PADPATH =  .
 
 ------ Pad Stack Refresh Messages ------
 
-'MEC_R65'  pad stack refresh starting.
+'MTGP240H140'  pad stack refresh starting.
 
-     'MEC_R65'  pad stack refreshed successfully.
-     
-'SLOT_OB60_170OB100_200'  pad stack refresh starting.
-
-     'SLOT_OB60_170OB100_200'  pad stack refreshed successfully.
-     
-'SMD_R50_114RC60_124'  pad stack refresh starting.
-
-     'SMD_R50_114RC60_124'  pad stack refreshed successfully.
-     
-'SMD_R30_114RC40_124'  pad stack refresh starting.
-
-     'SMD_R30_114RC40_124'  pad stack refreshed successfully.
+     'MTGP240H140'  pad stack refreshed successfully.
      
 Completed refreshing all pad stacks successfully.

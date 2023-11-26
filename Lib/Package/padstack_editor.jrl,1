@@ -1,8 +1,8 @@
-\t (00:00:01) padstack_editor 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Sat Nov 25 15:59:42 2023
-\t (00:00:01)         Host=HEROZHOU User=59427 Pid=25888 CPUs=12
-\t (00:00:01) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\padstack_editor.exe F:\Cadence_learn\Lib\Package\mgtp240h140.pad
-\t (00:00:01) 
-\d (00:00:08) QtSignal MainWindow SaveAs triggered
-\d (00:01:04) QtFillin "MTGP240H140.pad"
-\t (00:02:37)     Journal end - Sat Nov 25 16:02:17 2023
+\t (00:00:02) padstack_editor 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sun Nov 26 22:14:55 2023
+\t (00:00:02)         Host=HEROZHOU User=59427 Pid=11320 CPUs=12
+\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\padstack_editor.exe F:\Cadence_learn\Lib\Package\mgtp240h140.pad
+\t (00:00:02) 
+\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:08) QtSignal MainWindow Save triggered
+\t (00:00:10)     Journal end - Sun Nov 26 22:15:03 2023
