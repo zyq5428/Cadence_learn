@@ -1,4 +1,4 @@
-if exist r113_267r20.pad del r113_267r20.pad
-padstack_editor -s R113_267R20.SCR
-if exist RESC320X250X65L50N.dra del RESC320X250X65L50N.dra
-allegro -s RESC320X250X65L50N.SCR
+if exist r103_62r15.pad del r103_62r15.pad
+padstack_editor -s R103_62R15.SCR
+if exist SOT23-3P95_240X110L53X44N.dra del SOT23-3P95_240X110L53X44N.dra
+allegro -s SOT23-3P95_240X110L53X44N.SCR
