@@ -1,41 +1,26 @@
 \t (00:00:03) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Sun Nov 26 18:00:10 2023
-\t (00:00:03)         Host=HEROZHOU User=59427 Pid=24168 CPUs=12
-\t (00:00:03) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\FPX\Footprint\HDRV8W64P254_4X2_1016X502H838.dra
+\t (00:00:03)     Journal start - Sat Dec  9 21:31:37 2023
+\t (00:00:03)         Host=HEROZHOU User=59427 Pid=21180 CPUs=12
+\t (00:00:03) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\FPX\Footprint\HDRV5W64P254_5X1_1270X254H860.dra
 \t (00:00:03) 
    (00:00:03) Loading axlcore.cxt 
 \t (00:00:06) Opening existing design...
-\d (00:00:06) Design opened: F:/Cadence_learn/FPX/Footprint/HDRV8W64P254_4X2_1016X502H838.dra
-\i (00:00:06) trapsize 276
-\i (00:00:07) trapsize 281
-\i (00:00:07) trapsize 276
-\i (00:00:07) trapsize 281
-\i (00:00:07) generaledit 
-\i (00:00:10) step pkg map 
-\i (00:00:12) fillin yes 
-\i (00:00:23) setwindow form.pkgmap3d
-\i (00:00:23) FORM pkgmap3d view_orientation Front 
-\i (00:00:27) FORM pkgmap3d save_current  
-\i (00:00:28) FORM pkgmap3d done  
-\i (00:00:28) setwindow pcb
-\i (00:00:28) generaledit 
-\i (00:00:30) 3d 
-\i (00:00:32) generaledit 
-\i (00:00:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 2089 565 2089 610 1 1 +
-\i (00:00:35) QtSignal 0 "860.544" "608.293" "294.81"
-\i (00:00:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 2089 565 2089 610 1 +
-\i (00:00:35) QtSignal 0 0 "860.544" "608.293" "294.81"
-\i (00:00:38) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 52 536870912 false 1 4
-\i (00:00:39) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 54 536870912 false 1 6
-\i (00:00:39) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 57 536870912 false 1 9
-\i (00:00:40) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
-\i (00:00:42) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
-\i (00:00:43) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 57 536870912 false 1 9
-\i (00:00:44) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
-\i (00:00:48) QtSignal pcb3dViewer pcb3dViewer closed
-\i (00:00:51) save 
-\i (00:00:52) fillin yes 
-\t (00:00:52) Symbol 'hdrv8w64p254_4x2_1016x502h838.psm' created.
-\i (00:00:52) generaledit 
-\i (00:00:54) exit 
-\t (00:00:57)     Journal end - Sun Nov 26 18:01:03 2023
+\d (00:00:06) Design opened: F:/Cadence_learn/FPX/Footprint/HDRV5W64P254_5X1_1270X254H860.dra
+\i (00:00:07) trapsize 601
+\i (00:00:07) trapsize 627
+\i (00:00:07) trapsize 601
+\i (00:00:08) trapsize 612
+\i (00:00:08) generaledit 
+\i (00:01:08) step pkg map 
+\i (00:01:10) fillin yes 
+\i (00:01:12) setwindow form.pkgmap3d
+\i (00:01:12) FORM pkgmap3d save_current  
+\i (00:01:14) FORM pkgmap3d done  
+\i (00:01:14) setwindow pcb
+\i (00:01:14) generaledit 
+\i (00:01:16) save 
+\i (00:01:17) fillin yes 
+\t (00:01:17) Symbol 'hdrv5w64p254_5x1_1270x254h860.psm' created.
+\i (00:01:17) generaledit 
+\i (00:01:26) exit 
+\t (00:01:28)     Journal end - Sat Dec  9 21:33:02 2023
