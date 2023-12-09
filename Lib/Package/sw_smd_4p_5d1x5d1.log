@@ -1,14 +1,23 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    Downrev Design                                                   )
+(    CREATE SYMBOL                                                    )
 (                                                                     )
 (    Drawing          : SW_SMD_4P_5D1x5D1.dra                         )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Sat Dec  9 18:48:38 2023                      )
+(    Date/Time        : Sat Dec  9 19:19:22 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
+Create Symbol of type: PACKAGE
+    Directory = F:/Cadence_learn/Lib/Package
+    Name      = sw_smd_4p_5d1x5d1.psm
+    User      = 59427
+    Machine   = HEROZHOU
 
-Changes made to design for 17.2 compatibility.
+
+Create symbol started.
+ 
+
+Create symbol completed.
 
