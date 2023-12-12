@@ -1,26 +1,31 @@
-\t (00:00:03) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Sat Dec  9 21:31:37 2023
-\t (00:00:03)         Host=HEROZHOU User=59427 Pid=21180 CPUs=12
-\t (00:00:03) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\FPX\Footprint\HDRV5W64P254_5X1_1270X254H860.dra
-\t (00:00:03) 
-   (00:00:03) Loading axlcore.cxt 
-\t (00:00:06) Opening existing design...
-\d (00:00:06) Design opened: F:/Cadence_learn/FPX/Footprint/HDRV5W64P254_5X1_1270X254H860.dra
-\i (00:00:07) trapsize 601
-\i (00:00:07) trapsize 627
-\i (00:00:07) trapsize 601
-\i (00:00:08) trapsize 612
-\i (00:00:08) generaledit 
-\i (00:01:08) step pkg map 
-\i (00:01:10) fillin yes 
-\i (00:01:12) setwindow form.pkgmap3d
-\i (00:01:12) FORM pkgmap3d save_current  
-\i (00:01:14) FORM pkgmap3d done  
-\i (00:01:14) setwindow pcb
-\i (00:01:14) generaledit 
-\i (00:01:16) save 
-\i (00:01:17) fillin yes 
-\t (00:01:17) Symbol 'hdrv5w64p254_5x1_1270x254h860.psm' created.
-\i (00:01:17) generaledit 
-\i (00:01:26) exit 
-\t (00:01:28)     Journal end - Sat Dec  9 21:33:02 2023
+\t (00:00:01) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Tue Dec 12 17:44:36 2023
+\t (00:00:01)         Host=LTSC-20211101AY User=Administrator Pid=7328 CPUs=8
+\t (00:00:01) CmdLine= D:\Cadence\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: D:/Cadence_learn/FPX/Footprint/SODFL160X80X70L20X30N.dra
+\i (00:00:03) trapsize 149
+\i (00:00:03) trapsize 153
+\i (00:00:03) trapsize 149
+\i (00:00:03) trapsize 152
+\i (00:00:03) trapsize 156
+\i (00:00:03) generaledit 
+\i (00:00:09) enved 
+\i (00:00:10) setwindow form.prfedit
+\i (00:00:10) FORM prfedit treelist  My_favorites 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) generaledit 
+\i (00:00:12) setwindow form.prfedit
+\i (00:00:12) FORM prfedit treelist  Paths 
+\i (00:00:13) FORM prfedit treelist  Library Paths 
+\i (00:00:16) FORM prfedit padpath  
+\i (00:00:22) FORM prfedit parampath  
+\i (00:00:24) FORM prfedit psmpath  
+\i (00:00:30) FORM prfedit steppath  
+\i (00:00:33) FORM prfedit techpath  
+\i (00:00:38) FORM prfedit cancel  
+\i (00:12:48) setwindow pcb
+\i (00:12:48) exit 
+\t (00:12:49)     Journal end - Tue Dec 12 17:57:24 2023

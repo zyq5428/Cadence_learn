@@ -1,6 +1,4 @@
-if exist s158h105.pad del s158h105.pad
-padstack_editor -s S158H105.SCR
-if exist c158h105.pad del c158h105.pad
-padstack_editor -s C158H105.SCR
-if exist HDRV5W64P254_5X1_1270X254H860.dra del HDRV5W64P254_5X1_1270X254H860.dra
-allegro -s HDRV5W64P254_5X1_1270X254H860.SCR
+if exist r53_40r10.pad del r53_40r10.pad
+padstack_editor -s R53_40R10.SCR
+if exist SODFL160X80X70L20X30N.dra del SODFL160X80X70L20X30N.dra
+allegro -s SODFL160X80X70L20X30N.SCR
