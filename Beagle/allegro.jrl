@@ -1,0 +1,32 @@
+\t (00:00:03) allegro 24.1 S008 (4387554) [1/12/2026] Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Fri Oct  9 23:33:55 2026
+\t (00:00:03)         Host=HEROZHOU User=59427 Pid=5296 CPUs=12
+\t (00:00:03) CmdLine= d:\cadence\spb_24.1\tools\bin\allegro.exe F:\Cadence_learn\Beagle\l0603.dra
+\t (00:00:03) 
+\t (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: F:/Cadence_learn/Beagle/l0603.dra
+\i (00:00:06) trapsize 494
+\i (00:00:06) trapsize 515
+\i (00:00:06) trapsize 494
+\i (00:00:06) trapsize 496
+\i (00:00:06) trapsize 557
+\t (00:00:06) Loading NV GPU Plugin
+\i (00:00:06) trapsize 221
+\i (00:00:06) generaledit 
+\t (00:00:06) [23:33:58.068712] Periodic Lic check successful
+[23:33:58.593000] Feature usage summary:
+
+\i (00:00:12) zoom fit 
+\i (00:00:12) trapsize 41
+\i (00:00:16) 3d 
+\i (00:00:18) generaledit 
+\i (00:00:27) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:00:29) exit 
+\e (00:00:29) Do you want to save the changes you made to l0603.dra?
+\i (00:00:30) fillin no 
+\t (00:00:33) Lic Summary:
+[23:34:24.168712] Cdslmd servers:
+[23:34:24.693000] Feature usage summary:
+
+\t (00:00:33)     Journal end - Fri Oct  9 23:34:24 2026

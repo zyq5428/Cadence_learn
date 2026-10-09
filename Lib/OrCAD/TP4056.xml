@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Lib xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="olb.xsd">
+<Defn name="PRIVATE.OLB"/>
+<DefaultValues>
+<Defn/>
+<DefaultFont>
+<Defn charset = "0" escapement = "0" height = "8" index = "0" italic = "0" name = "Arial" orientation = "0" weight = "400" width = "6" />
+</DefaultFont>
+<DefaultFont>
+<Defn charset = "0" escapement = "0" height = "8" index = "1" italic = "0" name = "Arial" orientation = "0" weight = "400" width = "6" />
+</DefaultFont>
+</DefaultValues>
+ <Package>
+  <Defn alphabeticNumbering="2" isHomogeneous="1" name="TP4056" pcbFootprint="?" refdesPrefix="U"/>
+   <LibPart>
+    <Defn/>
+     <NormalView>
+       <Defn suffix=".Normal"/>
+
+       <SymbolDisplayProp>
+          <Defn locX="0" locY="-9" name="Part Reference" rotation="0"/>
+          <PropFont>
+            <Defn escapement="0" height="7" italic="0" name="Arial" orientation="0" weight="400" width="6"/>
+          </PropFont>
+          <PropColor>
+            <Defn val="48"/>
+          </PropColor>
+          <PropDispType>
+            <Defn val="1"/>
+          </PropDispType>
+        </SymbolDisplayProp>
+
+       <SymbolDisplayProp>
+          <Defn locX="0" locY="85" name="Value" rotation="0"/>
+          <PropFont>
+            <Defn escapement="0" height="7" italic="0" name="Arial" orientation="0" weight="400" width="6"/>
+          </PropFont>
+          <PropColor>
+            <Defn val="48"/>
+          </PropColor>
+          <PropDispType>
+            <Defn val="1"/>
+          </PropDispType>
+        </SymbolDisplayProp>
+
+       <SymbolDisplayProp>
+          <Defn locX="0" locY="95" name="PCB Footprint" rotation="0"/>
+          <PropFont>
+            <Defn escapement="0" height="7" italic="0" name="Arial" orientation="0" weight="400" width="6"/>
+          </PropFont>
+          <PropColor>
+            <Defn val="48"/>
+          </PropColor>
+          <PropDispType>
+            <Defn val="1"/>
+          </PropDispType>
+        </SymbolDisplayProp>
+       <SymbolUserProp>
+         <Defn name="PCB Footprint" val="?"/>
+       </SymbolUserProp>
+       <SymbolUserProp>
+         <Defn name="Description" val="?"/>
+       </SymbolUserProp>
+
+        <SymbolColor>
+          <Defn val="48"/>
+        </SymbolColor>
+
+        <SymbolBBox>
+          <Defn x1="0" x2="100" y1="0" y2="80"/>
+        </SymbolBBox>
+
+        <IsPinNumbersVisible>
+          <Defn val="1"/>
+        </IsPinNumbersVisible>
+        <IsPinNamesRotated>
+          <Defn val="1"/>
+        </IsPinNamesRotated>
+        <IsPinNamesVisible>
+          <Defn val="1"/>
+        </IsPinNamesVisible>
+        <ContentsLibName>
+          <Defn name=""/>
+        </ContentsLibName>
+        <ContentsViewName>
+          <Defn name=""/>
+        </ContentsViewName>
+        <ContentsViewType>
+          <Defn type="0"/>
+        </ContentsViewType>
+        <PartValue>
+          <Defn name="TP4056"/>
+        </PartValue>
+        <Reference>
+          <Defn name="U"/>
+        </Reference>
+
+        <Rect>
+          <Defn fillStyle="1" hatchStyle="0" lineStyle="0" lineWidth="0" x1="0" x2="100" y1="0" y2="80"/>
+        </Rect>
+
+        <SymbolPinScalar>
+          <Defn hotptX="130" hotptY="40" name="TEMP" position="0" startX="100" startY="40" type="1" visible="1"/>
+          <IsLong>
+            <Defn val="1"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinDisplayProp>
+            <Defn locX="106" locY="29" name="Number" rotation="0" textJustification="0" />
+            <PropFont>
+            <Defn charset="0" escapement="0" height="8" italic="0" name="Arial" orientation="0" weight="400" width="6" />
+            </PropFont>
+          </PinDisplayProp>
+        </SymbolPinScalar>
+
+        <SymbolPinScalar>
+          <Defn hotptX="130" hotptY="60" name="PROG" position="1" startX="100" startY="60" type="1" visible="1"/>
+          <IsLong>
+            <Defn val="1"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinDisplayProp>
+            <Defn locX="106" locY="49" name="Number" rotation="0" textJustification="0" />
+            <PropFont>
+            <Defn charset="0" escapement="0" height="8" italic="0" name="Arial" orientation="0" weight="400" width="6" />
+            </PropFont>
+          </PinDisplayProp>
+        </SymbolPinScalar>
+
+        <SymbolPinScalar>
+          <Defn hotptX="60" hotptY="110" name="GND" position="2" startX="60" startY="80" type="7" visible="1"/>
+          <IsLong>
+            <Defn val="1"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinDisplayProp>
+            <Defn locX="49" locY="86" name="Number" rotation="1" textJustification="0" />
+            <PropFont>
+            <Defn charset="0" escapement="0" height="8" italic="0" name="Arial" orientation="0" weight="400" width="6" />
+            </PropFont>
+          </PinDisplayProp>
+        </SymbolPinScalar>
+
+        <SymbolPinScalar>
+          <Defn hotptX="40" hotptY="-30" name="VCC" position="3" startX="40" startY="0" type="7" visible="1"/>
+          <IsLong>
+            <Defn val="1"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinDisplayProp>
+            <Defn locX="29" locY="-12" name="Number" rotation="1" textJustification="0" />
+            <PropFont>
+            <Defn charset="0" escapement="0" height="8" italic="0" name="Arial" orientation="0" weight="400" width="6" />
+            </PropFont>
+          </PinDisplayProp>
+        </SymbolPinScalar>
+
+        <SymbolPinScalar>
+          <Defn hotptX="130" hotptY="20" name="BAT" position="4" startX="100" startY="20" type="1" visible="1"/>
+          <IsLong>
+            <Defn val="1"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinDisplayProp>
+            <Defn locX="106" locY="9" name="Number" rotation="0" textJustification="0" />
+            <PropFont>
+            <Defn charset="0" escapement="0" height="8" italic="0" name="Arial" orientation="0" weight="400" width="6" />
+            </PropFont>
+          </PinDisplayProp>
+        </SymbolPinScalar>
+
+        <SymbolPinScalar>
+          <Defn hotptX="-30" hotptY="40" name="STDBY" position="5" startX="0" startY="40" type="1" visible="1"/>
+          <IsLong>
+            <Defn val="1"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinDisplayProp>
+            <Defn locX="-12" locY="29" name="Number" rotation="0" textJustification="0" />
+            <PropFont>
+            <Defn charset="0" escapement="0" height="8" italic="0" name="Arial" orientation="0" weight="400" width="6" />
+            </PropFont>
+          </PinDisplayProp>
+        </SymbolPinScalar>
+
+        <SymbolPinScalar>
+          <Defn hotptX="-30" hotptY="60" name="CHRG" position="6" startX="0" startY="60" type="1" visible="1"/>
+          <IsLong>
+            <Defn val="1"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinDisplayProp>
+            <Defn locX="-12" locY="49" name="Number" rotation="0" textJustification="0" />
+            <PropFont>
+            <Defn charset="0" escapement="0" height="8" italic="0" name="Arial" orientation="0" weight="400" width="6" />
+            </PropFont>
+          </PinDisplayProp>
+        </SymbolPinScalar>
+
+        <SymbolPinScalar>
+          <Defn hotptX="-30" hotptY="20" name="CE" position="7" startX="0" startY="20" type="1" visible="1"/>
+          <IsLong>
+            <Defn val="1"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinDisplayProp>
+            <Defn locX="-12" locY="9" name="Number" rotation="0" textJustification="0" />
+            <PropFont>
+            <Defn charset="0" escapement="0" height="8" italic="0" name="Arial" orientation="0" weight="400" width="6" />
+            </PropFont>
+          </PinDisplayProp>
+        </SymbolPinScalar>
+
+        <SymbolPinScalar>
+          <Defn hotptX="40" hotptY="110" name="EPAD" position="8" startX="40" startY="80" type="1" visible="1"/>
+          <IsLong>
+            <Defn val="1"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+          <PinDisplayProp>
+            <Defn locX="29" locY="86" name="Number" rotation="1" textJustification="0" />
+            <PropFont>
+            <Defn charset="0" escapement="0" height="8" italic="0" name="Arial" orientation="0" weight="400" width="6" />
+            </PropFont>
+          </PinDisplayProp>
+        </SymbolPinScalar>
+
+     </NormalView>
+
+      <PhysicalPart>
+        <Defn/>
+        <PinNumber>
+          <Defn number="1" position="0"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="2" position="1"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="3" position="2"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="4" position="3"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="5" position="4"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="6" position="5"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="7" position="6"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="8" position="7"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="9" position="8"/>
+        </PinNumber>
+      </PhysicalPart>
+   </LibPart>
+ </Package>
+
+</Lib>

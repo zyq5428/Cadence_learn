@@ -1,0 +1,1663 @@
+<Part 
+ name="TP4056"
+ aliasName=""
+ Library="F:\Cadence_learn\Lib"
+ LP_Library=""
+ LP_Name=""
+ pdfFilePath="F:\Cadence_learn\Datesheets\TP4056_电池管理_规格书_WJ1835191.PDF"
+ styleName="OrCAD_Capture"
+ NegationCode=""
+ pptName=""
+ UlPartGuid=""
+>
+
+<View 
+ name="symbols"
+ aliasName=""
+ assignedName=""
+ partType="0"
+ viewType="1"
+ bBox="((0:0)(0:0))"
+ cBox="((0:0)(0:0))"
+ rotation="0"
+ origin="(0:0)"
+ width="0"
+ height="0"
+>
+
+<View 
+ name="1"
+ aliasName="TP4056"
+ assignedName=""
+ partType="0"
+ viewType="1"
+ bBox="((-300:300)(1300:-1100))"
+ cBox="((0:-800)(1000:0))"
+ rotation="0"
+ origin="(0:0)"
+ width="1000"
+ height="800"
+>
+
+<Rectangle 
+ bBox="((0:-800)(1000:0))"
+ color="3"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+</Rectangle>
+
+<Pin 
+ bBox="((0:0)(0:0))"
+ cBox="((0:0)(0:0))"
+ color="0"
+ row="0"
+ portName=""
+ busName=""
+ signalName=""
+ pinName="TEMP"
+ aliasName=""
+ annotatedName=""
+ pinText="TEMP"
+ signalType="0"
+ pinType="1"
+ bitNumber="0"
+ msb="0"
+ lsb="0"
+ padType="0"
+ padName=""
+ pinNumber="1"
+ pinNumberSwaps=""
+ hotSpot="(1300:-400)"
+ origin="(1000:-400)"
+ rotation="0"
+ matrix="(0:0)"
+ direction="0"
+ function="0"
+ mechanicalElectrical="0"
+ gate=""
+ gateSwap=""
+ pinSwap=""
+ terminate=""
+ annotate=""
+ symbol="1"
+ side="1"
+ position="4"
+ sequence="0"
+ bank=""
+ standard=""
+ voltage=""
+ group=""
+ scratch1=""
+ scratch2=""
+ scratch3=""
+ scratch4=""
+ scratch5=""
+>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="10"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(1000:-400)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(1300:-400)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="TEMP"
+ aliasLabel=""
+ bBox="((832:-430)(1000:-370))"
+ origin="(1000:-400)"
+ justify="5"
+ rotation="0"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="20"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Property 
+ name="#"
+ aliasName=""
+ value="1"
+ bBox="((0:0)(0:0))"
+ origin="(1060:-375)"
+ justify="0"
+ rotation="0"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="21"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+</Pin>
+
+<Pin 
+ bBox="((0:0)(0:0))"
+ cBox="((0:0)(0:0))"
+ color="0"
+ row="1"
+ portName=""
+ busName=""
+ signalName=""
+ pinName="PROG"
+ aliasName=""
+ annotatedName=""
+ pinText="PROG"
+ signalType="0"
+ pinType="1"
+ bitNumber="0"
+ msb="0"
+ lsb="0"
+ padType="0"
+ padName=""
+ pinNumber="2"
+ pinNumberSwaps=""
+ hotSpot="(1300:-600)"
+ origin="(1000:-600)"
+ rotation="0"
+ matrix="(0:0)"
+ direction="0"
+ function="0"
+ mechanicalElectrical="0"
+ gate=""
+ gateSwap=""
+ pinSwap=""
+ terminate=""
+ annotate=""
+ symbol="1"
+ side="1"
+ position="6"
+ sequence="1"
+ bank=""
+ standard=""
+ voltage=""
+ group=""
+ scratch1=""
+ scratch2=""
+ scratch3=""
+ scratch4=""
+ scratch5=""
+>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="10"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(1000:-600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(1300:-600)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="PROG"
+ aliasLabel=""
+ bBox="((832:-630)(1000:-570))"
+ origin="(1000:-600)"
+ justify="5"
+ rotation="0"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="20"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Property 
+ name="#"
+ aliasName=""
+ value="2"
+ bBox="((0:0)(0:0))"
+ origin="(1060:-575)"
+ justify="0"
+ rotation="0"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="21"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+</Pin>
+
+<Pin 
+ bBox="((0:0)(0:0))"
+ cBox="((0:0)(0:0))"
+ color="0"
+ row="2"
+ portName=""
+ busName=""
+ signalName=""
+ pinName="GND"
+ aliasName=""
+ annotatedName=""
+ pinText="GND"
+ signalType="0"
+ pinType="1"
+ bitNumber="0"
+ msb="0"
+ lsb="0"
+ padType="0"
+ padName=""
+ pinNumber="3"
+ pinNumberSwaps=""
+ hotSpot="(600:-1100)"
+ origin="(600:-800)"
+ rotation="0"
+ matrix="(0:0)"
+ direction="5"
+ function="0"
+ mechanicalElectrical="0"
+ gate=""
+ gateSwap=""
+ pinSwap=""
+ terminate=""
+ annotate=""
+ symbol="1"
+ side="4"
+ position="6"
+ sequence="2"
+ bank=""
+ standard=""
+ voltage=""
+ group=""
+ scratch1=""
+ scratch2=""
+ scratch3=""
+ scratch4=""
+ scratch5=""
+>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="10"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(600:-800)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(600:-1100)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="GND"
+ aliasLabel=""
+ bBox="((570:-800)(630:-675))"
+ origin="(600:-800)"
+ justify="3"
+ rotation="1"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="20"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Property 
+ name="#"
+ aliasName=""
+ value="3"
+ bBox="((0:0)(0:0))"
+ origin="(575:-860)"
+ justify="2"
+ rotation="1"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="21"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+</Pin>
+
+<Pin 
+ bBox="((0:0)(0:0))"
+ cBox="((0:0)(0:0))"
+ color="0"
+ row="3"
+ portName=""
+ busName=""
+ signalName=""
+ pinName="VCC"
+ aliasName=""
+ annotatedName=""
+ pinText="VCC"
+ signalType="0"
+ pinType="1"
+ bitNumber="0"
+ msb="0"
+ lsb="0"
+ padType="0"
+ padName=""
+ pinNumber="4"
+ pinNumberSwaps=""
+ hotSpot="(400:300)"
+ origin="(400:0)"
+ rotation="0"
+ matrix="(0:0)"
+ direction="4"
+ function="0"
+ mechanicalElectrical="0"
+ gate=""
+ gateSwap=""
+ pinSwap=""
+ terminate=""
+ annotate=""
+ symbol="1"
+ side="2"
+ position="4"
+ sequence="3"
+ bank=""
+ standard=""
+ voltage=""
+ group=""
+ scratch1=""
+ scratch2=""
+ scratch3=""
+ scratch4=""
+ scratch5=""
+>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="10"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(400:0)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(400:300)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="VCC"
+ aliasLabel=""
+ bBox="((370:-125)(430:0))"
+ origin="(400:0)"
+ justify="5"
+ rotation="1"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="20"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Property 
+ name="#"
+ aliasName=""
+ value="4"
+ bBox="((0:0)(0:0))"
+ origin="(375:60)"
+ justify="0"
+ rotation="1"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="21"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+</Pin>
+
+<Pin 
+ bBox="((0:0)(0:0))"
+ cBox="((0:0)(0:0))"
+ color="0"
+ row="4"
+ portName=""
+ busName=""
+ signalName=""
+ pinName="BAT"
+ aliasName=""
+ annotatedName=""
+ pinText="BAT"
+ signalType="0"
+ pinType="1"
+ bitNumber="0"
+ msb="0"
+ lsb="0"
+ padType="0"
+ padName=""
+ pinNumber="5"
+ pinNumberSwaps=""
+ hotSpot="(1300:-200)"
+ origin="(1000:-200)"
+ rotation="0"
+ matrix="(0:0)"
+ direction="0"
+ function="0"
+ mechanicalElectrical="0"
+ gate=""
+ gateSwap=""
+ pinSwap=""
+ terminate=""
+ annotate=""
+ symbol="1"
+ side="1"
+ position="2"
+ sequence="4"
+ bank=""
+ standard=""
+ voltage=""
+ group=""
+ scratch1=""
+ scratch2=""
+ scratch3=""
+ scratch4=""
+ scratch5=""
+>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="10"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(1000:-200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(1300:-200)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="BAT"
+ aliasLabel=""
+ bBox="((875:-230)(1000:-170))"
+ origin="(1000:-200)"
+ justify="5"
+ rotation="0"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="20"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Property 
+ name="#"
+ aliasName=""
+ value="5"
+ bBox="((0:0)(0:0))"
+ origin="(1060:-175)"
+ justify="0"
+ rotation="0"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="21"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+</Pin>
+
+<Pin 
+ bBox="((0:0)(0:0))"
+ cBox="((0:0)(0:0))"
+ color="0"
+ row="5"
+ portName=""
+ busName=""
+ signalName=""
+ pinName="STDBY"
+ aliasName=""
+ annotatedName=""
+ pinText="STDBY"
+ signalType="0"
+ pinType="1"
+ bitNumber="0"
+ msb="0"
+ lsb="0"
+ padType="0"
+ padName=""
+ pinNumber="6"
+ pinNumberSwaps=""
+ hotSpot="(-300:-400)"
+ origin="(0:-400)"
+ rotation="0"
+ matrix="(0:0)"
+ direction="0"
+ function="0"
+ mechanicalElectrical="0"
+ gate=""
+ gateSwap=""
+ pinSwap=""
+ terminate=""
+ annotate=""
+ symbol="1"
+ side="3"
+ position="4"
+ sequence="5"
+ bank=""
+ standard=""
+ voltage=""
+ group=""
+ scratch1=""
+ scratch2=""
+ scratch3=""
+ scratch4=""
+ scratch5=""
+>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="10"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(0:-400)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-300:-400)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="STDBY"
+ aliasLabel=""
+ bBox="((0:-430)(210:-370))"
+ origin="(0:-400)"
+ justify="3"
+ rotation="0"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="20"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Property 
+ name="#"
+ aliasName=""
+ value="6"
+ bBox="((0:0)(0:0))"
+ origin="(-60:-375)"
+ justify="2"
+ rotation="0"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="21"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+</Pin>
+
+<Pin 
+ bBox="((0:0)(0:0))"
+ cBox="((0:0)(0:0))"
+ color="0"
+ row="6"
+ portName=""
+ busName=""
+ signalName=""
+ pinName="CHRG"
+ aliasName=""
+ annotatedName=""
+ pinText="CHRG"
+ signalType="0"
+ pinType="1"
+ bitNumber="0"
+ msb="0"
+ lsb="0"
+ padType="0"
+ padName=""
+ pinNumber="7"
+ pinNumberSwaps=""
+ hotSpot="(-300:-600)"
+ origin="(0:-600)"
+ rotation="0"
+ matrix="(0:0)"
+ direction="0"
+ function="0"
+ mechanicalElectrical="0"
+ gate=""
+ gateSwap=""
+ pinSwap=""
+ terminate=""
+ annotate=""
+ symbol="1"
+ side="3"
+ position="6"
+ sequence="6"
+ bank=""
+ standard=""
+ voltage=""
+ group=""
+ scratch1=""
+ scratch2=""
+ scratch3=""
+ scratch4=""
+ scratch5=""
+>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="10"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(0:-600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-300:-600)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="CHRG"
+ aliasLabel=""
+ bBox="((0:-630)(168:-570))"
+ origin="(0:-600)"
+ justify="3"
+ rotation="0"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="20"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Property 
+ name="#"
+ aliasName=""
+ value="7"
+ bBox="((0:0)(0:0))"
+ origin="(-60:-575)"
+ justify="2"
+ rotation="0"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="21"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+</Pin>
+
+<Pin 
+ bBox="((0:0)(0:0))"
+ cBox="((0:0)(0:0))"
+ color="0"
+ row="7"
+ portName=""
+ busName=""
+ signalName=""
+ pinName="CE"
+ aliasName=""
+ annotatedName=""
+ pinText="CE"
+ signalType="0"
+ pinType="1"
+ bitNumber="0"
+ msb="0"
+ lsb="0"
+ padType="0"
+ padName=""
+ pinNumber="8"
+ pinNumberSwaps=""
+ hotSpot="(-300:-200)"
+ origin="(0:-200)"
+ rotation="0"
+ matrix="(0:0)"
+ direction="0"
+ function="0"
+ mechanicalElectrical="0"
+ gate=""
+ gateSwap=""
+ pinSwap=""
+ terminate=""
+ annotate=""
+ symbol="1"
+ side="3"
+ position="2"
+ sequence="7"
+ bank=""
+ standard=""
+ voltage=""
+ group=""
+ scratch1=""
+ scratch2=""
+ scratch3=""
+ scratch4=""
+ scratch5=""
+>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="10"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(0:-200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-300:-200)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="CE"
+ aliasLabel=""
+ bBox="((0:-230)(84:-170))"
+ origin="(0:-200)"
+ justify="3"
+ rotation="0"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="20"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Property 
+ name="#"
+ aliasName=""
+ value="8"
+ bBox="((0:0)(0:0))"
+ origin="(-60:-175)"
+ justify="2"
+ rotation="0"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="21"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+</Pin>
+
+<Pin 
+ bBox="((0:0)(0:0))"
+ cBox="((0:0)(0:0))"
+ color="0"
+ row="8"
+ portName=""
+ busName=""
+ signalName=""
+ pinName="EPAD"
+ aliasName=""
+ annotatedName=""
+ pinText="EPAD"
+ signalType="0"
+ pinType="1"
+ bitNumber="0"
+ msb="0"
+ lsb="0"
+ padType="0"
+ padName=""
+ pinNumber="9"
+ pinNumberSwaps=""
+ hotSpot="(400:-1100)"
+ origin="(400:-800)"
+ rotation="0"
+ matrix="(0:0)"
+ direction="0"
+ function="0"
+ mechanicalElectrical="0"
+ gate=""
+ gateSwap=""
+ pinSwap=""
+ terminate=""
+ annotate=""
+ symbol="1"
+ side="4"
+ position="4"
+ sequence="8"
+ bank=""
+ standard=""
+ voltage=""
+ group=""
+ scratch1=""
+ scratch2=""
+ scratch3=""
+ scratch4=""
+ scratch5=""
+>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="10"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(400:-800)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(400:-1100)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="EPAD"
+ aliasLabel=""
+ bBox="((370:-800)(430:-632))"
+ origin="(400:-800)"
+ justify="3"
+ rotation="1"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="20"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Property 
+ name="#"
+ aliasName=""
+ value="9"
+ bBox="((0:0)(0:0))"
+ origin="(375:-860)"
+ justify="2"
+ rotation="1"
+ height="60"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="21"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+</Pin>
+
+<Property 
+ name="Part Reference"
+ aliasName=""
+ value="U?"
+ bBox="((0:0)(0:0))"
+ origin="(0:25)"
+ justify="0"
+ rotation="0"
+ height="70"
+ font="Arial"
+ fontSize="5"
+ color="0"
+ labelType="1"
+ visibility="1"
+ relativeOrigin="6"
+ offset="(0:25)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Value"
+ aliasName=""
+ value="TP4056"
+ bBox="((0:0)(0:0))"
+ origin="(0:-925)"
+ justify="0"
+ rotation="0"
+ height="70"
+ font="Arial"
+ fontSize="5"
+ color="0"
+ labelType="2"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:-125)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="PCB Footprint"
+ aliasName=""
+ value="?"
+ bBox="((0:0)(0:0))"
+ origin="(0:-1025)"
+ justify="0"
+ rotation="0"
+ height="70"
+ font="Arial"
+ fontSize="5"
+ color="0"
+ labelType="40"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:-225)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Description"
+ aliasName=""
+ value="?"
+ bBox="((0:0)(0:0))"
+ origin="(0:-1150)"
+ justify="0"
+ rotation="0"
+ height="80"
+ font="Arial"
+ fontSize="6"
+ color="0"
+ labelType="0"
+ visibility="3"
+ relativeOrigin="0"
+ offset="(0:-350)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Name"
+ aliasName=""
+ value="TP4056"
+ bBox="((0:0)(0:0))"
+ origin="(600:-800)"
+ justify="0"
+ rotation="0"
+ height="80"
+ font="Arial"
+ fontSize="6"
+ color="0"
+ labelType="6"
+ visibility="3"
+ relativeOrigin="0"
+ offset="(600:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Pin Name Visible"
+ aliasName=""
+ value="True"
+ bBox="((0:0)(0:0))"
+ origin="(0:-800)"
+ justify="0"
+ rotation="0"
+ height="0"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="100"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Include SWAP_INFO"
+ aliasName=""
+ value="True"
+ bBox="((0:0)(0:0))"
+ origin="(0:-800)"
+ justify="0"
+ rotation="0"
+ height="0"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="100"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Include SPLIT_INST"
+ aliasName=""
+ value="True"
+ bBox="((0:0)(0:0))"
+ origin="(0:-800)"
+ justify="0"
+ rotation="0"
+ height="0"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="100"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+</View>
+
+</View>
+
+<Constraints 
+ name="OrCAD_Capture"
+>
+
+<Constraint 
+ name="1"
+ assignedName=""
+ width="1000"
+ height="800"
+>
+
+<Property 
+ name="Part Reference"
+ aliasName=""
+ value="U?"
+ bBox="((0:0)(0:0))"
+ origin="(0:25)"
+ justify="0"
+ rotation="0"
+ height="70"
+ font="Arial"
+ fontSize="5"
+ color="0"
+ labelType="1"
+ visibility="1"
+ relativeOrigin="6"
+ offset="(0:25)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Value"
+ aliasName=""
+ value="TP4056"
+ bBox="((0:0)(0:0))"
+ origin="(0:-925)"
+ justify="0"
+ rotation="0"
+ height="70"
+ font="Arial"
+ fontSize="5"
+ color="0"
+ labelType="2"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:-125)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="PCB Footprint"
+ aliasName=""
+ value="?"
+ bBox="((0:0)(0:0))"
+ origin="(0:-1025)"
+ justify="0"
+ rotation="0"
+ height="70"
+ font="Arial"
+ fontSize="5"
+ color="0"
+ labelType="40"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:-225)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Description"
+ aliasName=""
+ value="?"
+ bBox="((0:0)(0:0))"
+ origin="(0:-1150)"
+ justify="0"
+ rotation="0"
+ height="80"
+ font="Arial"
+ fontSize="6"
+ color="0"
+ labelType="0"
+ visibility="3"
+ relativeOrigin="0"
+ offset="(0:-350)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Name"
+ aliasName=""
+ value="TP4056"
+ bBox="((0:0)(0:0))"
+ origin="(600:-800)"
+ justify="0"
+ rotation="0"
+ height="80"
+ font="Arial"
+ fontSize="6"
+ color="0"
+ labelType="6"
+ visibility="3"
+ relativeOrigin="0"
+ offset="(600:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Pin Name Visible"
+ aliasName=""
+ value="True"
+ bBox="((0:0)(0:0))"
+ origin="(0:-800)"
+ justify="0"
+ rotation="0"
+ height="0"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="100"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Include SWAP_INFO"
+ aliasName=""
+ value="True"
+ bBox="((0:0)(0:0))"
+ origin="(0:-800)"
+ justify="0"
+ rotation="0"
+ height="0"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="100"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Include SPLIT_INST"
+ aliasName=""
+ value="True"
+ bBox="((0:0)(0:0))"
+ origin="(0:-800)"
+ justify="0"
+ rotation="0"
+ height="0"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="100"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+</Constraint>
+
+<Property 
+ name="Part Reference"
+ aliasName=""
+ value="U?"
+ bBox="((0:0)(0:0))"
+ origin="(0:0)"
+ justify="0"
+ rotation="0"
+ height="70"
+ font="Arial"
+ fontSize="5"
+ color="0"
+ labelType="1"
+ visibility="1"
+ relativeOrigin="6"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Value"
+ aliasName=""
+ value="TP4056"
+ bBox="((0:0)(0:0))"
+ origin="(0:0)"
+ justify="0"
+ rotation="0"
+ height="70"
+ font="Arial"
+ fontSize="5"
+ color="0"
+ labelType="2"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="PCB Footprint"
+ aliasName=""
+ value="?"
+ bBox="((0:0)(0:0))"
+ origin="(0:0)"
+ justify="0"
+ rotation="0"
+ height="70"
+ font="Arial"
+ fontSize="5"
+ color="0"
+ labelType="40"
+ visibility="1"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Description"
+ aliasName=""
+ value="?"
+ bBox="((0:0)(0:0))"
+ origin="(0:0)"
+ justify="0"
+ rotation="0"
+ height="80"
+ font="Arial"
+ fontSize="6"
+ color="0"
+ labelType="0"
+ visibility="3"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Name"
+ aliasName=""
+ value="myValue"
+ bBox="((0:0)(0:0))"
+ origin="(0:0)"
+ justify="0"
+ rotation="0"
+ height="80"
+ font="Arial"
+ fontSize="6"
+ color="0"
+ labelType="6"
+ visibility="3"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Pin Name Visible"
+ aliasName=""
+ value="True"
+ bBox="((0:0)(0:0))"
+ origin="(0:0)"
+ justify="0"
+ rotation="0"
+ height="0"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="100"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Include SWAP_INFO"
+ aliasName=""
+ value="True"
+ bBox="((0:0)(0:0))"
+ origin="(0:0)"
+ justify="0"
+ rotation="0"
+ height="0"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="100"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+<Property 
+ name="Include SPLIT_INST"
+ aliasName=""
+ value="True"
+ bBox="((0:0)(0:0))"
+ origin="(0:0)"
+ justify="0"
+ rotation="0"
+ height="0"
+ font=""
+ fontSize="0"
+ color="0"
+ labelType="100"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+ relativeOrder="0"
+>
+
+</Property>
+
+</Constraints>
+
+</Part>
+
+<DocumentElement>
+  <TABLE_SCRATCHPAD_DATA>
+    <_x0030_>1</_x0030_>
+    <_x0031_>TEMP</_x0031_>
+  </TABLE_SCRATCHPAD_DATA>
+  <TABLE_SCRATCHPAD_DATA>
+    <_x0030_>2</_x0030_>
+    <_x0031_>PROG</_x0031_>
+  </TABLE_SCRATCHPAD_DATA>
+  <TABLE_SCRATCHPAD_DATA>
+    <_x0030_>3</_x0030_>
+    <_x0031_>GND</_x0031_>
+  </TABLE_SCRATCHPAD_DATA>
+  <TABLE_SCRATCHPAD_DATA>
+    <_x0030_>4</_x0030_>
+    <_x0031_>VCC</_x0031_>
+  </TABLE_SCRATCHPAD_DATA>
+  <TABLE_SCRATCHPAD_DATA>
+    <_x0030_>5</_x0030_>
+    <_x0031_>BAT</_x0031_>
+  </TABLE_SCRATCHPAD_DATA>
+  <TABLE_SCRATCHPAD_DATA>
+    <_x0030_>6 7</_x0030_>
+    <_x0031_>STDBY CHRG</_x0031_>
+  </TABLE_SCRATCHPAD_DATA>
+  <TABLE_SCRATCHPAD_DATA>
+    <_x0030_>8</_x0030_>
+    <_x0031_>CE</_x0031_>
+  </TABLE_SCRATCHPAD_DATA>
+  <TABLE_SCRATCHPAD_DATA>
+    <_x0030_>9</_x0030_>
+    <_x0031_>EPAD</_x0031_>
+  </TABLE_SCRATCHPAD_DATA>
+</DocumentElement>

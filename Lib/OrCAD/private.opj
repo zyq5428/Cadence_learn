@@ -1,6 +1,6 @@
 (ExpressProject "private"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[06/08/23]")
+  (SoftwareVersion "24.1 S008 (4383181)  [12/21/2025]-[06/08/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -120,34 +120,28 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "F:\Cadence_learn\Lib\OrCAD\private.dsn")
-      (Path "Design Resources" "F:\Cadence_learn\Lib\OrCAD\private.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources" "F:\Cadence_learn\Lib\OrCAD\private.dsn"
-         "Design Cache")
+      (Path "Design Resources" ".\private.dsn")
+      (Path "Design Resources" ".\private.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "F:\Cadence_learn\Lib\OrCAD\private.olb")
+      (Path "Design Resources" "Library" ".\private.olb")
       (Path "Layout")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources" "Library"
-         "F:\Cadence_learn\Lib\OrCAD\private.olb"))
+      (Select "Design Resources" "Library" ".\private.olb" "HEADER_22X1_2P54"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 313 0 1077"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1355 28 1123")
-        (Scroll "0 -9")
-        (Zoom "145")
-        (Occurrence "/"))
-      (Path "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 360 0 1058"))
+      (Tab 0)))
   (LastUsedLibraryBrowseDirectory
-     "D:\Cadence\Cadence\SPB_17.4\tools\capture\library"))
+     "D:\Cadence\Cadence\SPB_17.4\tools\capture\library")
+  (Folder "PSpice 资源"
+    (Folder "仿真配置文件")
+    (Folder "模型库"
+      (Sort User))
+    (Folder "激励文件"
+      (Sort User))
+    (Folder "包括文件"
+      (Sort User)))
+  (Folder "日志"))

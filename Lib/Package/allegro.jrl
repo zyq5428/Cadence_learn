@@ -1,153 +1,185 @@
-\t (00:00:04) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:04)     Journal start - Sun Nov 26 22:13:00 2023
-\t (00:00:04)         Host=HEROZHOU User=59427 Pid=17392 CPUs=12
-\t (00:00:04) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\Lib\Package\MTGP240H140.dra
-\t (00:00:04) 
-   (00:00:04) Loading axlcore.cxt 
-\t (00:00:04) Opening existing design...
-\d (00:00:04) Design opened: F:/Cadence_learn/Lib/Package/MTGP240H140.dra
-\i (00:00:05) trapsize 2386
-\i (00:00:05) trapsize 2505
-\i (00:00:05) trapsize 2636
-\i (00:00:05) trapsize 2505
-\i (00:00:05) trapsize 2386
-\i (00:00:05) trapsize 2386
-\i (00:00:06) trapsize 2343
-\i (00:00:06) generaledit 
-\i (00:00:11) 3d 
-\i (00:00:12) generaledit 
-\i (00:00:15) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1503 589 1503 634 0 0 "-120"
-\i (00:00:15) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1503 589 1503 634 0 0 "-120"
-\i (00:00:15) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1503 589 1503 634 0 0 "-120"
-\i (00:00:15) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1503 589 1503 634 0 0 "-120"
-\i (00:00:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1503 585 1503 630 0 0 120
-\i (00:00:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1503 585 1503 630 0 0 120
-\i (00:00:19) QtSignal pcb3d_SymbolTab pcb3dSymbolTree itemChanged "~All" "|" 0
-\i (00:00:19) QtSignal pcb3d_SymbolTab pcb3dSymbolTree itemClicked All
-\i (00:00:20) QtSignal pcb3d_SymbolTab pcb3dSymbolTree itemChanged "~All" "|" 2
-\i (00:00:20) QtSignal pcb3d_SymbolTab pcb3dSymbolTree itemClicked All
-\i (00:00:22) QtSignal pcb3d_SymbolTab pcb3dSymbolTree itemChanged "~All" "|" 0
-\i (00:00:22) QtSignal pcb3d_SymbolTab pcb3dSymbolTree itemClicked All
-\i (00:00:24) QtSignal ViewerPanePanel All_LayersAll clicked true
-\i (00:00:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 2585 580 2585 625 1 1 +
-\i (00:00:27) QtSignal 0 "689.773" "753.119" "-138.844"
-\i (00:00:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 2585 580 2585 625 1 +
-\i (00:00:27) QtSignal 0 0 "689.773" "753.119" "-138.844"
-\i (00:00:28) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
-\i (00:00:30) QtSignal ViewerPanePanel All_LayersAll clicked false
-\i (00:00:32) QtSignal ViewerPanePanel ViewerPaneLayer1All clicked true
-\i (00:00:34) QtSignal ViewerPanePanel ViewerPaneLayer1All clicked false
-\i (00:00:35) QtSignal ViewerPanePanel ViewerPaneLayer2All clicked true
-\i (00:00:35) QtSignal ViewerPanePanel ViewerPaneLayer2All clicked false
-\i (00:00:41) QtSignal pcb3dViewer pcb3dViewer closed
-\i (00:00:43) pick grid 0.093 26.247
-\t (00:00:43) last pick:  0.000 25.000
-\i (00:00:43) prepopup 0.093 26.247
-\i (00:00:53) refresh padstack 
-\i (00:00:57) setwindow form.rf_pad
-\i (00:00:57) FORM rf_pad execute  
-\t (00:00:57) Starting Refreshing padstacks...
-\t (00:00:58) Opening existing design...
-\i (00:00:58) setwindow pcb
-\i (00:00:58) trapsize 2458
-\i (00:00:58) trapsize 2584
-\i (00:00:58) trapsize 2458
-\i (00:00:59) trapsize 2458
-\i (00:01:00) trapsize 2343
-\i (00:01:12) setwindow form.rf_pad
-\i (00:01:12) FORM rf_pad cancel  
-\i (00:01:12) setwindow pcb
-\i (00:01:12) generaledit 
-\i (00:01:21) replace padstack 
-\i (00:01:23) setwindow form.mini
-\i (00:01:23) FORM mini oldname_browse  
-\i (00:01:26) fillin "Mtgp240h140"
-\i (00:01:27) FORM mini newname_browse  
-\i (00:03:12) fillin "Mtgp240h140"
-\w (00:03:12) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:03:15) FORM mini replace  
-\t (00:03:15) Done, updated padstack.
-\t (00:03:15) 1 out of 1 old padstack MTGP240H140 were replaced with new padstack MTGP240H140.
-\i (00:03:29) setwindow pcb
-\i (00:03:29) QtSignal ColorVisibilityPane CVPGlobalVisOff clicked
-\i (00:03:31) color192 
-\i (00:03:37) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 1
-\i (00:03:37) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
-\i (00:03:38) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 0
-\i (00:03:38) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
-\i (00:03:48) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 1
-\i (00:03:48) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
-\i (00:03:49) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 0
-\i (00:03:49) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
-\i (00:03:49) QtSignal CVDLayerTable VertHeader sectionDoubleClicked 4
-\i (00:03:50) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 1
-\i (00:03:50) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
-\i (00:03:51) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 0
-\i (00:03:51) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
-\i (00:03:52) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 1
-\i (00:03:52) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
-\i (00:04:04) trapsize 2343
-\i (00:04:04) trapsize 2343
-\i (00:04:05) QtSignal CVPLayerGrid CVPAllAll_Layers clicked true
-\i (00:04:09) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
-\i (00:04:18) prepopup -5.063 -42.651
-\i (00:04:19) prepopup -9.281 -27.184
-\i (00:04:20) pick grid 189.912 1.406
-\t (00:04:20) last pick:  190.000 0.000
-\i (00:04:20) pick grid 23.527 26.715
-\t (00:04:20) last pick:  25.000 25.000
-\i (00:04:25) padeditdb 
-\t (00:04:25) Performing DRC...
-\t (00:04:25) No DRC errors detected.
-\i (00:04:27) setwindow form.mini
-\i (00:04:27) FORM mini padlist MTGP240H140 
-\i (00:04:29) FORM mini pad_stack_edit  
-\i (00:05:49) setwindow pcb
-\i (00:05:49) refresh padstack 
-\i (00:05:50) setwindow form.rf_pad
-\i (00:05:50) FORM rf_pad execute  
-\t (00:05:50) Starting Refreshing padstacks...
-\t (00:05:50) Opening existing design...
-\i (00:05:51) setwindow pcb
-\i (00:05:51) trapsize 2458
-\i (00:05:51) trapsize 2584
-\i (00:05:51) trapsize 2458
-\i (00:05:51) trapsize 2458
-\i (00:05:52) trapsize 2343
-\i (00:05:57) setwindow form.rf_pad
-\i (00:05:57) FORM rf_pad cancel  
-\i (00:05:57) setwindow pcb
-\i (00:05:57) generaledit 
-\i (00:05:59) QtSignal ColorVisibilityPane CVPGlobalVisOff clicked
-\i (00:06:01) color192 
-\i (00:06:01) generaledit 
-\i (00:06:04) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 1
-\i (00:06:04) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
-\i (00:06:05) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 0
-\i (00:06:05) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
-\i (00:06:06) QtSignal CVDLayerTable VertHeader clickedCheckBox "Soldermask_Bottom" 1
-\i (00:06:06) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
-\i (00:06:07) QtSignal CVDLayerTable VertHeader clickedCheckBox "Soldermask_Bottom" 0
-\i (00:06:07) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
-\i (00:06:07) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 1
-\i (00:06:07) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
-\i (00:06:08) trapsize 2343
-\i (00:06:08) trapsize 2343
-\i (00:06:10) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
-\i (00:06:13) 3d 
-\i (00:06:15) generaledit 
-\i (00:06:18) QtSignal ViewerPanePanel All_LayersAll clicked true
-\i (00:06:21) QtSignal ViewerPanePanel All_LayersAll clicked false
-\i (00:06:24) QtSignal ViewerPanePanel ViewerPaneLayer0All clicked true
-\i (00:06:25) QtSignal ViewerPanePanel ViewerPaneLayer0All clicked false
-\i (00:06:26) QtSignal ViewerPanePanel ViewerPaneLayer2All clicked true
-\i (00:06:28) QtSignal ViewerPanePanel ViewerPaneLayer2All clicked false
-\i (00:06:29) QtSignal ViewerPanePanel ViewerPaneLayer1All clicked true
-\i (00:06:30) QtSignal ViewerPanePanel ViewerPaneLayer1All clicked false
-\i (00:06:32) QtSignal pcb3dViewer pcb3dViewer closed
-\i (00:06:37) save 
-\i (00:06:38) fillin yes 
-\t (00:06:38) Symbol 'mtgp240h140.psm' created.
-\i (00:06:38) generaledit 
-\i (00:06:41) exit 
-\t (00:06:43)     Journal end - Sun Nov 26 22:19:40 2023
+\t (00:00:02) allegro 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Wed Aug 13 22:55:51 2025
+\t (00:00:02)         Host=HEROZHOU User=59427 Pid=23084 CPUs=12
+\t (00:00:02) CmdLine= d:\cadence\spb_24.1\tools\bin\allegro.exe F:\Cadence_learn\Lib\Package\resc0603x26n.dra
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: F:/Cadence_learn/Lib/Package/resc0603x26n.dra
+\i (00:00:05) trapsize 107
+\i (00:00:05) trapsize 109
+\i (00:00:05) trapsize 107
+\i (00:00:05) trapsize 106
+\i (00:00:05) trapsize 106
+\t (00:00:06) Loading NV GPU Plugin
+\i (00:00:18) zoom in 1 
+\t (00:00:18) [22:56:07.402000] Periodic Lic check successful
+[22:56:07.402000] Feature usage summary:
+
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 0.8656 0.0537
+\i (00:00:18) trapsize 53
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 0.8656 0.0537
+\i (00:00:18) trapsize 26
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 0.8656 0.0537
+\i (00:00:18) trapsize 13
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 0.8656 0.0537
+\i (00:00:18) trapsize 26
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 0.8657 0.0527
+\i (00:00:18) trapsize 53
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 0.8688 0.0528
+\i (00:00:19) trapsize 106
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 0.8710 0.0527
+\i (00:00:19) trapsize 186
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 3.3273 -0.6133
+\i (00:00:19) trapsize 186
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 3.3273 -0.6133
+\i (00:00:19) trapsize 186
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 3.3273 -0.6133
+\i (00:00:19) trapsize 186
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 3.3422 -0.6022
+\i (00:00:19) trapsize 186
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 3.3422 -0.6022
+\i (00:00:19) trapsize 186
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 3.3422 -0.6022
+\i (00:00:19) trapsize 186
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 0.7736 -0.3977
+\i (00:00:20) trapsize 186
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 1.1825 -0.4349
+\i (00:00:20) trapsize 186
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 1.5319 -0.4907
+\i (00:00:20) trapsize 186
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 1.6026 -0.4944
+\i (00:00:20) trapsize 186
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in -0.1296 0.1598
+\i (00:00:21) trapsize 93
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out 0.2932 -0.0521
+\i (00:00:22) trapsize 186
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in -0.6537 0.1338
+\i (00:00:23) trapsize 93
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in -0.4242 0.0911
+\i (00:00:23) trapsize 46
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 0.1762 -0.0325
+\i (00:00:31) trapsize 93
+\i (00:00:39) 3d 
+\i (00:00:41) QtSignal 3DUniFilterDialog UniFilterOkButton clicked
+\i (00:00:57) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 1491 433 1491 488 1 1 +
+\i (00:00:57) QtSignal 0 "9.91603" "61.4146" "-4.21279"
+\i (00:00:57) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 1491 433 1491 488 1 +
+\i (00:00:57) QtSignal 0 0 "9.91603" "61.4146" "-4.21279"
+\i (00:00:58) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 2185 338 2185 393 1 1 +
+\i (00:00:58) QtSignal 0 "107.753" "173.619" "13.3839"
+\i (00:00:58) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 2185 338 2185 393 1 +
+\i (00:00:58) QtSignal 0 0 "107.753" "173.619" "13.3839"
+\i (00:01:03) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 2221 326 2221 381 1 1 +
+\i (00:01:03) QtSignal 0 "112.293" "179.974" "15.6066"
+\i (00:01:03) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 2221 326 2221 381 1 +
+\i (00:01:03) QtSignal 0 0 "112.293" "179.974" "15.6066"
+\i (00:01:05) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 57 536870912 false 1 9
+\i (00:01:05) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
+\i (00:01:08) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 50 536870912 false 1 2
+\i (00:01:09) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
+\i (00:01:09) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 54 536870912 false 1 6
+\i (00:01:11) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 52 536870912 false 1 4
+\i (00:01:13) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
+\i (00:01:14) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 49 536870912 false 1 1
+\i (00:01:15) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 51 536870912 false 1 3
+\i (00:01:16) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 51 536870912 false 1 3
+\i (00:01:17) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 51 536870912 false 1 3
+\i (00:01:18) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 49 536870912 false 1 1
+\i (00:01:19) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 49 536870912 false 1 1
+\i (00:01:21) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 57 536870912 false 1 9
+\i (00:01:21) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 57 536870912 false 1 9
+\i (00:01:23) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 55 536870912 false 1 7
+\i (00:01:23) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 55 536870912 false 1 7
+\i (00:01:24) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 55 536870912 false 1 7
+\i (00:01:26) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 53 536870912 false 1 5
+\i (00:01:28) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 53 536870912 false 1 5
+\i (00:01:29) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 53 536870912 false 1 5
+\i (00:01:29) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 53 536870912 false 1 5
+\i (00:01:30) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 53 536870912 false 1 5
+\i (00:01:31) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 49 536870912 false 1 1
+\i (00:01:32) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
+\i (00:02:29) QtSignal pcb3d_MapperTab Pcb3dPrimarySecondarySwitch CurrentIndexChanged 1
+\i (00:02:32) QtSignal pcb3d_MapperTab Pcb3dPrimarySecondarySwitch CurrentIndexChanged 0
+\i (00:02:41) QtSignal pcb3dViewerSetupMenu pcb3dViewerPreferences triggered
+\i (00:02:45) QtSignal pcb3dViewer 3DPreferencesDialog closed
+\i (00:02:59) QtSignal ViewerPanePanel ViewerPaneLayer3All clicked false
+\i (00:03:01) QtSignal ViewerPanePanel ViewerPaneLayer3All clicked true
+\i (00:03:09) QtSignal ViewerPanePanel ViewerPaneLayer0All clicked false
+\i (00:03:10) QtSignal ViewerPanePanel ViewerPaneLayer0All clicked true
+\i (00:03:27) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:03:51) 3d 
+\i (00:04:13) QtSignal 3DUniFilterDialog UniFilterOkButton clicked
+\i (00:04:38) QtSignal ViewerPanePanel ViewerPaneLayer0All clicked false
+\i (00:04:40) QtSignal ViewerPanePanel ViewerPaneLayer0All clicked true
+\i (00:04:54) QtSignal Collision_Detection collisionTolerance editingFinished 0
+\i (00:04:54) QtSignal pcb3d_MapperTab Load_STEP clicked
+\i (00:04:56) QtFillin ""
+\i (00:05:06) QtSignal pcb3d_MapperTab Delete_STEP clicked
+\i (00:05:10) QtSignal pcb3d_MapperTab Load_STEP clicked
+\i (00:05:14) QtFillin ""
+\i (00:05:16) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:05:19) 3d 
+\t (00:05:19) [23:01:08.489000] Periodic Lic check successful
+[23:01:08.489000] Feature usage summary:
+
+\i (00:05:20) QtSignal 3DUniFilterDialog UniFilterOkButton clicked
+\i (00:05:29) QtSignal Collision_Detection collisionTolerance editingFinished 0
+\i (00:05:29) QtSignal pcb3d_MapperTab Load_STEP clicked
+\i (00:05:38) QtFillin ""
+\i (00:05:40) QtSignal pcb3d_MapperTab stepColorButton clicked
+\i (00:05:41) QtSignal pcb3d_MapperTab stepColorButton clicked
+\i (00:05:42) QtSignal pcb3d_MapperTab Load_STEP clicked
+\i (00:05:53) QtFillin ""
+\i (00:05:56) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:05:59) exit 
+\e (00:05:59) Do you want to save the changes you made to resc0603x26n.dra?
+\i (00:06:01) fillin no 
+\t (00:06:03) Lic Summary:
+[23:01:51.425712] Cdslmd servers:
+[23:01:51.950000] Feature usage summary:
+
+\t (00:06:03)     Journal end - Wed Aug 13 23:01:51 2025

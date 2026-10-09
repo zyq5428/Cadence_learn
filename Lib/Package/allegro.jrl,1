@@ -1,46 +1,153 @@
-\t (00:00:03) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Sun Nov 26 22:10:30 2023
-\t (00:00:03)         Host=HEROZHOU User=59427 Pid=1972 CPUs=12
-\t (00:00:03) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\Lib\Package\MTGP240H140.dra
-\t (00:00:03) 
-   (00:00:03) Loading axlcore.cxt 
-\t (00:00:03) Opening existing design...
-\d (00:00:03) Design opened: F:/Cadence_learn/Lib/Package/MTGP240H140.dra
-\i (00:00:04) trapsize 990
-\i (00:00:04) trapsize 1007
-\i (00:00:04) trapsize 990
+\t (00:00:04) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Sun Nov 26 22:13:00 2023
+\t (00:00:04)         Host=HEROZHOU User=59427 Pid=17392 CPUs=12
+\t (00:00:04) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\Cadence_learn\Lib\Package\MTGP240H140.dra
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: F:/Cadence_learn/Lib/Package/MTGP240H140.dra
 \i (00:00:05) trapsize 2386
-\i (00:00:05) trapsize 2343
-\i (00:00:05) generaledit 
-\i (00:00:11) replace padstack 
-\i (00:00:18) prepopup -11.156 7.030
-\i (00:00:19) prepopup 245.218 37.027
-\i (00:00:20) cancel 
-\i (00:00:20) generaledit 
-\i (00:00:21) pick grid 186.631 22.028
-\t (00:00:21) last pick:  185.000 20.000
-\i (00:00:22) prepopup 8.060 25.778
-\i (00:00:24) pick grid 150.074 65.617
-\t (00:00:24) last pick:  150.000 65.000
-\i (00:00:28) prepopup 18.372 37.495
-\i (00:00:37) refresh padstack 
-\i (00:00:42) setwindow form.rf_pad
-\i (00:00:42) FORM rf_pad execute  
-\t (00:00:42) Starting Refreshing padstacks...
-\t (00:00:43) Opening existing design...
-\i (00:00:43) setwindow pcb
-\i (00:00:43) trapsize 2458
-\i (00:00:43) trapsize 2584
-\i (00:00:43) trapsize 2458
-\i (00:00:43) trapsize 2458
-\i (00:00:44) trapsize 2343
-\i (00:00:47) setwindow form.rf_pad
-\i (00:00:47) FORM rf_pad cancel  
-\i (00:00:47) setwindow pcb
-\i (00:00:47) generaledit 
-\i (00:00:49) save 
-\i (00:00:52) fillin yes 
-\t (00:00:53) Symbol 'mtgp240h140.psm' created.
-\i (00:00:53) generaledit 
-\i (00:00:57) exit 
-\t (00:00:59)     Journal end - Sun Nov 26 22:11:26 2023
+\i (00:00:05) trapsize 2505
+\i (00:00:05) trapsize 2636
+\i (00:00:05) trapsize 2505
+\i (00:00:05) trapsize 2386
+\i (00:00:05) trapsize 2386
+\i (00:00:06) trapsize 2343
+\i (00:00:06) generaledit 
+\i (00:00:11) 3d 
+\i (00:00:12) generaledit 
+\i (00:00:15) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1503 589 1503 634 0 0 "-120"
+\i (00:00:15) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1503 589 1503 634 0 0 "-120"
+\i (00:00:15) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1503 589 1503 634 0 0 "-120"
+\i (00:00:15) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1503 589 1503 634 0 0 "-120"
+\i (00:00:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1503 585 1503 630 0 0 120
+\i (00:00:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1503 585 1503 630 0 0 120
+\i (00:00:19) QtSignal pcb3d_SymbolTab pcb3dSymbolTree itemChanged "~All" "|" 0
+\i (00:00:19) QtSignal pcb3d_SymbolTab pcb3dSymbolTree itemClicked All
+\i (00:00:20) QtSignal pcb3d_SymbolTab pcb3dSymbolTree itemChanged "~All" "|" 2
+\i (00:00:20) QtSignal pcb3d_SymbolTab pcb3dSymbolTree itemClicked All
+\i (00:00:22) QtSignal pcb3d_SymbolTab pcb3dSymbolTree itemChanged "~All" "|" 0
+\i (00:00:22) QtSignal pcb3d_SymbolTab pcb3dSymbolTree itemClicked All
+\i (00:00:24) QtSignal ViewerPanePanel All_LayersAll clicked true
+\i (00:00:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 2585 580 2585 625 1 1 +
+\i (00:00:27) QtSignal 0 "689.773" "753.119" "-138.844"
+\i (00:00:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 2585 580 2585 625 1 +
+\i (00:00:27) QtSignal 0 0 "689.773" "753.119" "-138.844"
+\i (00:00:28) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 56 536870912 false 1 8
+\i (00:00:30) QtSignal ViewerPanePanel All_LayersAll clicked false
+\i (00:00:32) QtSignal ViewerPanePanel ViewerPaneLayer1All clicked true
+\i (00:00:34) QtSignal ViewerPanePanel ViewerPaneLayer1All clicked false
+\i (00:00:35) QtSignal ViewerPanePanel ViewerPaneLayer2All clicked true
+\i (00:00:35) QtSignal ViewerPanePanel ViewerPaneLayer2All clicked false
+\i (00:00:41) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:00:43) pick grid 0.093 26.247
+\t (00:00:43) last pick:  0.000 25.000
+\i (00:00:43) prepopup 0.093 26.247
+\i (00:00:53) refresh padstack 
+\i (00:00:57) setwindow form.rf_pad
+\i (00:00:57) FORM rf_pad execute  
+\t (00:00:57) Starting Refreshing padstacks...
+\t (00:00:58) Opening existing design...
+\i (00:00:58) setwindow pcb
+\i (00:00:58) trapsize 2458
+\i (00:00:58) trapsize 2584
+\i (00:00:58) trapsize 2458
+\i (00:00:59) trapsize 2458
+\i (00:01:00) trapsize 2343
+\i (00:01:12) setwindow form.rf_pad
+\i (00:01:12) FORM rf_pad cancel  
+\i (00:01:12) setwindow pcb
+\i (00:01:12) generaledit 
+\i (00:01:21) replace padstack 
+\i (00:01:23) setwindow form.mini
+\i (00:01:23) FORM mini oldname_browse  
+\i (00:01:26) fillin "Mtgp240h140"
+\i (00:01:27) FORM mini newname_browse  
+\i (00:03:12) fillin "Mtgp240h140"
+\w (00:03:12) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:03:15) FORM mini replace  
+\t (00:03:15) Done, updated padstack.
+\t (00:03:15) 1 out of 1 old padstack MTGP240H140 were replaced with new padstack MTGP240H140.
+\i (00:03:29) setwindow pcb
+\i (00:03:29) QtSignal ColorVisibilityPane CVPGlobalVisOff clicked
+\i (00:03:31) color192 
+\i (00:03:37) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 1
+\i (00:03:37) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:03:38) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 0
+\i (00:03:38) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:03:48) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 1
+\i (00:03:48) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:03:49) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 0
+\i (00:03:49) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:03:49) QtSignal CVDLayerTable VertHeader sectionDoubleClicked 4
+\i (00:03:50) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 1
+\i (00:03:50) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:03:51) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 0
+\i (00:03:51) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:03:52) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 1
+\i (00:03:52) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:04:04) trapsize 2343
+\i (00:04:04) trapsize 2343
+\i (00:04:05) QtSignal CVPLayerGrid CVPAllAll_Layers clicked true
+\i (00:04:09) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:04:18) prepopup -5.063 -42.651
+\i (00:04:19) prepopup -9.281 -27.184
+\i (00:04:20) pick grid 189.912 1.406
+\t (00:04:20) last pick:  190.000 0.000
+\i (00:04:20) pick grid 23.527 26.715
+\t (00:04:20) last pick:  25.000 25.000
+\i (00:04:25) padeditdb 
+\t (00:04:25) Performing DRC...
+\t (00:04:25) No DRC errors detected.
+\i (00:04:27) setwindow form.mini
+\i (00:04:27) FORM mini padlist MTGP240H140 
+\i (00:04:29) FORM mini pad_stack_edit  
+\i (00:05:49) setwindow pcb
+\i (00:05:49) refresh padstack 
+\i (00:05:50) setwindow form.rf_pad
+\i (00:05:50) FORM rf_pad execute  
+\t (00:05:50) Starting Refreshing padstacks...
+\t (00:05:50) Opening existing design...
+\i (00:05:51) setwindow pcb
+\i (00:05:51) trapsize 2458
+\i (00:05:51) trapsize 2584
+\i (00:05:51) trapsize 2458
+\i (00:05:51) trapsize 2458
+\i (00:05:52) trapsize 2343
+\i (00:05:57) setwindow form.rf_pad
+\i (00:05:57) FORM rf_pad cancel  
+\i (00:05:57) setwindow pcb
+\i (00:05:57) generaledit 
+\i (00:05:59) QtSignal ColorVisibilityPane CVPGlobalVisOff clicked
+\i (00:06:01) color192 
+\i (00:06:01) generaledit 
+\i (00:06:04) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 1
+\i (00:06:04) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:06:05) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 0
+\i (00:06:05) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:06:06) QtSignal CVDLayerTable VertHeader clickedCheckBox "Soldermask_Bottom" 1
+\i (00:06:06) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
+\i (00:06:07) QtSignal CVDLayerTable VertHeader clickedCheckBox "Soldermask_Bottom" 0
+\i (00:06:07) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
+\i (00:06:07) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 1
+\i (00:06:07) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:06:08) trapsize 2343
+\i (00:06:08) trapsize 2343
+\i (00:06:10) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:06:13) 3d 
+\i (00:06:15) generaledit 
+\i (00:06:18) QtSignal ViewerPanePanel All_LayersAll clicked true
+\i (00:06:21) QtSignal ViewerPanePanel All_LayersAll clicked false
+\i (00:06:24) QtSignal ViewerPanePanel ViewerPaneLayer0All clicked true
+\i (00:06:25) QtSignal ViewerPanePanel ViewerPaneLayer0All clicked false
+\i (00:06:26) QtSignal ViewerPanePanel ViewerPaneLayer2All clicked true
+\i (00:06:28) QtSignal ViewerPanePanel ViewerPaneLayer2All clicked false
+\i (00:06:29) QtSignal ViewerPanePanel ViewerPaneLayer1All clicked true
+\i (00:06:30) QtSignal ViewerPanePanel ViewerPaneLayer1All clicked false
+\i (00:06:32) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:06:37) save 
+\i (00:06:38) fillin yes 
+\t (00:06:38) Symbol 'mtgp240h140.psm' created.
+\i (00:06:38) generaledit 
+\i (00:06:41) exit 
+\t (00:06:43)     Journal end - Sun Nov 26 22:19:40 2023

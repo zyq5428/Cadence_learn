@@ -1,0 +1,87 @@
+\t (00:00:01) allegro 24.1 S008 (4387554) [1/12/2026] Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Sat Jul 18 19:39:16 2026
+\t (00:00:01)         Host=HEROZHOU User=59427 Pid=21804 CPUs=12
+\t (00:00:01) CmdLine= allegro -s CMPLX-0020-2_4-3_3.PSX
+\t (00:00:01) 
+\t (00:00:01) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: F:/Cadence_learn/FPX/Footprint/SOIC9P127_490X600X170L83X42T-1.dra
+\i (00:00:02) trapsize 363
+\i (00:00:02) trapsize 378
+\i (00:00:02) trapsize 363
+\i (00:00:02) trapsize 364
+\i (00:00:02) trapsize 364
+\t (00:00:02) Loading NV GPU Plugin
+\i (00:00:02) replay CMPLX-0020-2_4-3_3.PSX 
+\i (00:00:02) version 24.1 
+\t (00:00:02) Script version: 24.1
+\i (00:00:02) new 
+\t (00:00:02) [19:39:17.498000] Periodic Lic check successful
+[19:39:17.498000] Feature usage summary:
+
+\i (00:00:02) newdrawfillin CMPLX-0020-2_4-3_3.dra 'Shape Symbol' 
+\t (00:00:02) Starting new design...
+\i (00:00:03) trapsize 687
+\i (00:00:03) trapsize 716
+\i (00:00:03) trapsize 687
+\i (00:00:03) trapsize 856
+\i (00:00:03) trapsize 856
+\i (00:00:03) setwindow pcb 
+\i (00:00:03) QtSignal SPBDesignInitPrompt spbdip_ok_button clicked 
+\i (00:00:03) prmed 
+\i (00:00:03) setwindow Form.prmedit 
+\i (00:00:03) FORM prmedit design 
+\i (00:00:03) FORM prmedit units Millimeter 
+\i (00:00:03) FORM prmedit accuracy 4 
+\i (00:00:03) FORM prmedit size Other 
+\i (00:00:03) FORM prmedit x -10 
+\i (00:00:03) FORM prmedit y -10 
+\i (00:00:03) FORM prmedit width 20 
+\i (00:00:03) FORM prmedit height 20 
+\i (00:00:03) FORM prmedit x -10 
+\i (00:00:03) FORM prmedit y -10 
+\i (00:00:03) FORM prmedit done 
+\i (00:00:03) trapsize 856
+\i (00:00:03) trapsize 893
+\i (00:00:03) trapsize 856
+\i (00:00:03) setwindow pcb 
+\i (00:00:03) shape add 
+\i (00:00:03) setwindow Form.mini 
+\i (00:00:03) FORM mini class PACKAGE GEOMETRY 
+\e (00:00:03) Value for field is not legal
+\i (00:00:03) FORM mini subclass 
+\e (00:00:03) Value for field is not legal
+\i (00:00:03) FORM mini dyns_fill_type Static solid 
+\i (00:00:03) FORM mini dyns_grid None 
+\i (00:00:03) FORM mini dyns_lock_mode Line 
+\i (00:00:03) setwindow pcb 
+\i (00:00:03) pick -1.2 -1.65 
+\t (00:00:03) last pick:  -1.2000 -1.6500
+\i (00:00:03) pick -1.2 1.45 
+\t (00:00:03) last pick:  -1.2000 1.4500
+\i (00:00:03) pick -1 1.65 
+\t (00:00:03) last pick:  -1.0000 1.6500
+\i (00:00:03) pick 1.2 1.65 
+\t (00:00:03) last pick:  1.2000 1.6500
+\i (00:00:03) pick 1.2 -1.65 
+\t (00:00:03) last pick:  1.2000 -1.6500
+\i (00:00:03) pick -1.2 -1.65 
+\t (00:00:03) last pick:  -1.2000 -1.6500
+\i (00:00:03) done 
+\i (00:00:03) zoom fit 
+\i (00:00:03) trapsize 165
+\i (00:00:03) save_as 
+\i (00:00:03) fillin cmplx-0020-2_4-3_3.dra 
+\i (00:00:10) fillin yes 
+\t (00:00:11) Symbol 'cmplx-0020-2_4-3_3.ssm' created.
+\i (00:00:11) create symbol 
+\i (00:00:11) fillin cmplx-0020-2_4-3_3.ssm 
+\i (00:00:11) fillin yes 
+\t (00:00:11) Creating shape symbol 'F:/Cadence_learn/FPX/Footprint/cmplx-0020-2_4-3_3.ssm'.
+\t (00:00:11) Starting Create symbol...
+\i (00:00:11) exit 
+\t (00:00:13) Lic Summary:
+[19:39:28.312000] Cdslmd servers:
+[19:39:28.312000] Feature usage summary:
+
+\t (00:00:13)     Journal end - Sat Jul 18 19:39:28 2026
