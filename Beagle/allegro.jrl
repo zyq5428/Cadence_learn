@@ -1,32 +1,70 @@
-\t (00:00:03) allegro 24.1 S008 (4387554) [1/12/2026] Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Fri Oct  9 23:33:55 2026
-\t (00:00:03)         Host=HEROZHOU User=59427 Pid=5296 CPUs=12
-\t (00:00:03) CmdLine= d:\cadence\spb_24.1\tools\bin\allegro.exe F:\Cadence_learn\Beagle\l0603.dra
-\t (00:00:03) 
-\t (00:00:03) Loading axlcore.cxt 
-\t (00:00:06) Opening existing design...
-\d (00:00:06) Design opened: F:/Cadence_learn/Beagle/l0603.dra
-\i (00:00:06) trapsize 494
-\i (00:00:06) trapsize 515
-\i (00:00:06) trapsize 494
-\i (00:00:06) trapsize 496
-\i (00:00:06) trapsize 557
-\t (00:00:06) Loading NV GPU Plugin
-\i (00:00:06) trapsize 221
-\i (00:00:06) generaledit 
-\t (00:00:06) [23:33:58.068712] Periodic Lic check successful
-[23:33:58.593000] Feature usage summary:
+\t (00:00:04) allegro 24.1 S008 (4387554) [1/12/2026] Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Sun Oct 11 11:46:45 2026
+\t (00:00:04)         Host=HEROZHOU User=59427 Pid=5952 CPUs=12
+\t (00:00:04) CmdLine= d:\cadence\spb_24.1\tools\bin\allegro.exe F:\Cadence_learn\Beagle\c0603.dra
+\t (00:00:04) 
+\t (00:00:04) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\d (00:00:07) Design opened: F:/Cadence_learn/Beagle/c0603.dra
+\i (00:00:07) trapsize 494
+\i (00:00:07) trapsize 515
+\i (00:00:07) trapsize 494
+\i (00:00:07) trapsize 496
+\i (00:00:07) trapsize 557
+\t (00:00:07) Loading NV GPU Plugin
+\i (00:00:07) trapsize 221
+\i (00:00:07) generaledit 
+\t (00:00:07) [11:46:49.131712] Periodic Lic check successful
+[11:46:49.656000] Feature usage summary:
 
-\i (00:00:12) zoom fit 
-\i (00:00:12) trapsize 41
-\i (00:00:16) 3d 
-\i (00:00:18) generaledit 
-\i (00:00:27) QtSignal pcb3dViewer pcb3dViewer closed
-\i (00:00:29) exit 
-\e (00:00:29) Do you want to save the changes you made to l0603.dra?
-\i (00:00:30) fillin no 
-\t (00:00:33) Lic Summary:
-[23:34:24.168712] Cdslmd servers:
-[23:34:24.693000] Feature usage summary:
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out -100.43 -326.30
+\i (00:00:15) trapsize 443
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 364.17 -91.13
+\i (00:00:15) trapsize 552
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 594.17 25.40
+\i (00:00:15) trapsize 552
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in -76.20 -11.04
+\i (00:00:16) trapsize 276
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in -319.18 -11.04
+\i (00:00:16) trapsize 138
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in -319.17 -11.04
+\i (00:00:16) trapsize 69
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out -233.17 -8.55
+\i (00:00:16) trapsize 138
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out -239.79 -10.76
+\i (00:00:17) trapsize 276
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 73.99 8.57
+\i (00:00:17) trapsize 138
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in -31.76 6.37
+\i (00:00:18) trapsize 69
+\i (00:00:24) 3d 
+\i (00:00:26) generaledit 
+\i (00:00:35) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:00:38) exit 
+\e (00:00:38) Do you want to save the changes you made to c0603.dra?
+\i (00:00:40) fillin no 
+\t (00:00:42) Lic Summary:
+[11:47:24.172000] Cdslmd servers:
+[11:47:24.172000] Feature usage summary:
 
-\t (00:00:33)     Journal end - Fri Oct  9 23:34:24 2026
+\t (00:00:42)     Journal end - Sun Oct 11 11:47:24 2026
